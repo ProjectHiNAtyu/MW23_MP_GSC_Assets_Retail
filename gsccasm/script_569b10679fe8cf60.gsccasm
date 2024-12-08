@@ -1,0 +1,41 @@
+#using scripts\engine\utility;
+
+#namespace namespace_cdda2878f525663f;
+
+// Namespace namespace_cdda2878f525663f / namespace_61d0e47c5dff187c
+// Params 2, eflags: 0x0
+// Checksum 0x0, Offset: 0xa3
+// Size: 0x92
+function function_70b30cd9d10d788(var_7148c1a6f25491f8, var_b6424e073ecedad2) {
+    if (!isdefined(level.var_67b60013fc8d3fae)) {
+        level.var_67b60013fc8d3fae = [];
+    }
+    function_d353703eb7e16967(function_d1596a0c7ab424dc(var_7148c1a6f25491f8) && var_7148c1a6f25491f8 != "<dev string:x1c>" && function_5422ea0ec806ac45(var_b6424e073ecedad2));
+    if (!isdefined(level.var_67b60013fc8d3fae[var_7148c1a6f25491f8]) || !function_57ed2e17553be616(level.var_67b60013fc8d3fae[var_7148c1a6f25491f8], var_b6424e073ecedad2)) {
+        level.var_67b60013fc8d3fae[var_7148c1a6f25491f8] = function_a722c631f31ed2fa(level.var_67b60013fc8d3fae[var_7148c1a6f25491f8], var_b6424e073ecedad2);
+    }
+}
+
+// Namespace namespace_cdda2878f525663f / namespace_61d0e47c5dff187c
+// Params 3, eflags: 0x0
+// Checksum 0x0, Offset: 0x13d
+// Size: 0xbf
+function function_ea1c17b32ba2753f(var_7148c1a6f25491f8, var_5ca6b54e589421e, var_456c37b4ccdc86c4) {
+    if (isdefined(self)) {
+        if (isdefined(level.var_67b60013fc8d3fae) && isdefined(level.var_67b60013fc8d3fae[var_7148c1a6f25491f8])) {
+            foreach (var_b6424e073ecedad2 in level.var_67b60013fc8d3fae[var_7148c1a6f25491f8]) {
+                if (isdefined(var_456c37b4ccdc86c4)) {
+                    self thread [[ var_b6424e073ecedad2 ]](var_5ca6b54e589421e, var_456c37b4ccdc86c4);
+                    continue;
+                }
+                self thread [[ var_b6424e073ecedad2 ]](var_5ca6b54e589421e);
+            }
+        }
+        if (isdefined(var_456c37b4ccdc86c4)) {
+            self notify("\261\353\20\33\253\226s\267\35\2643^7\225\234gVN", var_7148c1a6f25491f8, var_5ca6b54e589421e, var_456c37b4ccdc86c4);
+            return;
+        }
+        self notify("\261\353\20\33\253\226s\267\35\2643^7\225\234gVN", var_7148c1a6f25491f8, var_5ca6b54e589421e);
+    }
+}
+

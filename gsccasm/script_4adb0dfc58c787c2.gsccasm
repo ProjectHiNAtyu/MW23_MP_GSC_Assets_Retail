@@ -1,0 +1,95 @@
+#using scripts\engine\utility;
+
+#namespace namespace_b1fe9349d25d66b8;
+
+// Namespace namespace_b1fe9349d25d66b8 / namespace_9c1ec96c80ce894a
+// Params 3, eflags: 0x0
+// Checksum 0x0, Offset: 0xe0
+// Size: 0xca
+function function_c05799a2fec963ed(var_9fe400eae7424996, var_e59efdfaa45671af, var_88e380f714003a9) {
+    var_a74fc0fb3167638a = function_23d8dfa245a80857(undefined, undefined, var_9fe400eae7424996, var_e59efdfaa45671af, "\216g\5\234@\30;");
+    var_e4850e5ef9d70a37 = [];
+    foreach (var_efb7a8721f76683d in var_a74fc0fb3167638a) {
+        if (!var_efb7a8721f76683d function_7abfe86cc48f668a()) {
+            continue;
+        }
+        if (isdefined(var_88e380f714003a9)) {
+            var_5357acdb76b0bd75 = var_efb7a8721f76683d.var_cefc229ff6de3343[2] - var_9fe400eae7424996[2];
+            if (var_5357acdb76b0bd75 <= var_88e380f714003a9) {
+                var_e4850e5ef9d70a37[var_e4850e5ef9d70a37.size] = var_efb7a8721f76683d;
+            }
+            continue;
+        }
+        var_e4850e5ef9d70a37[var_e4850e5ef9d70a37.size] = var_efb7a8721f76683d;
+    }
+    return var_e4850e5ef9d70a37;
+}
+
+// Namespace namespace_b1fe9349d25d66b8 / namespace_9c1ec96c80ce894a
+// Params 1, eflags: 0x0
+// Checksum 0x0, Offset: 0x1b3
+// Size: 0xd6
+function function_68c4a3039efa009c(var_da2d1a382c620732) {
+    self notify("\246\36\34\271\339-\301G\260\211\306Y\365F\366\355\311\3653\234VYO+\276\355\340+s");
+    self endon("\246\36\34\271\339-\301G\260\211\306Y\365F\366\355\311\3653\234VYO+\276\355\340+s");
+    var_e470d9af31c8e97c = undefined;
+    var_a8ee8714c9076944 = undefined;
+    if (istrue(var_da2d1a382c620732)) {
+        var_e470d9af31c8e97c = "\2542\r\35\246\17\vI\311\367`;1\343\317";
+        var_a8ee8714c9076944 = self function_bacd2d0acdf8559e() + (0, 90, 0);
+    } else {
+        var_e470d9af31c8e97c = "\2417\16~\352f\373\227\303\357\17rCY\312'";
+        var_a8ee8714c9076944 = self function_bacd2d0acdf8559e() + (0, -90, 0);
+    }
+    while (function_505fbd2c78cf2d9(self.var_27cbf5badd0cbdbd, var_a8ee8714c9076944) > 1) {
+        var_f6b538f8ececd7b3 = self function_e1e657ce44f37eda("\216g\5\234@\30;");
+        if (var_f6b538f8ececd7b3 != var_e470d9af31c8e97c) {
+            self function_6b61992f636c116e("\216g\5\234@\30;", var_e470d9af31c8e97c, 0);
+        }
+        wait 0.05;
+    }
+    self function_6b61992f636c116e("\216g\5\234@\30;", "\254\203\5'u/\273", 0);
+    self function_feaa8cc14da9bea5(1);
+}
+
+// Namespace namespace_b1fe9349d25d66b8 / namespace_9c1ec96c80ce894a
+// Params 1, eflags: 0x0
+// Checksum 0x0, Offset: 0x291
+// Size: 0x77
+function function_e8b5edd62cf6e302(var_683fa5be5777cb7d) {
+    if (self == var_683fa5be5777cb7d) {
+        return false;
+    }
+    var_149444556d8aa5f3 = self function_d90515f5e17dbc6f();
+    var_149445556d8aa826 = var_683fa5be5777cb7d function_d90515f5e17dbc6f();
+    var_f5de270f017c15ff = function_62d746fee72d9b(var_149444556d8aa5f3, var_149445556d8aa826);
+    if (var_f5de270f017c15ff > (26 + 5) * (26 + 5) || var_f5de270f017c15ff < (26 - 5) * (26 - 5)) {
+        return false;
+    }
+    return true;
+}
+
+// Namespace namespace_b1fe9349d25d66b8 / namespace_9c1ec96c80ce894a
+// Params 1, eflags: 0x0
+// Checksum 0x0, Offset: 0x311
+// Size: 0xd8
+function function_8a84bf34f556872d(var_683fa5be5777cb7d) {
+    if (self == var_683fa5be5777cb7d) {
+        return false;
+    }
+    var_149444556d8aa5f3 = self function_d90515f5e17dbc6f();
+    var_149445556d8aa826 = var_683fa5be5777cb7d function_d90515f5e17dbc6f();
+    var_14a59dec86fbcc4e = function_62d746fee72d9b(var_149444556d8aa5f3, var_149445556d8aa826);
+    var_4573a8725dd3748e = var_14a59dec86fbcc4e - 52;
+    if (var_14a59dec86fbcc4e > (52 + 5) * (52 + 5) || var_14a59dec86fbcc4e < (52 - 5) * (52 - 5)) {
+        return false;
+    }
+    var_53c5ed210180380b = self.var_cefc229ff6de3343;
+    var_53c5ee2101803a3e = var_683fa5be5777cb7d.var_cefc229ff6de3343;
+    var_40852a54559976c6 = function_62d746fee72d9b(var_53c5ed210180380b, var_53c5ee2101803a3e);
+    if (var_40852a54559976c6 > (104 + 5) * (104 + 5) || var_40852a54559976c6 < (104 - 5) * (104 - 5)) {
+        return false;
+    }
+    return true;
+}
+

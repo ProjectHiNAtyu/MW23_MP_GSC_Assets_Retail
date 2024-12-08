@@ -1,0 +1,30 @@
+#using scripts\engine\utility;
+
+#namespace namespace_d3fa0203d75274b8;
+
+/#
+
+    // Namespace namespace_d3fa0203d75274b8 / namespace_f013313a9982546e
+    // Params 2, eflags: 0x0
+    // Checksum 0x0, Offset: 0x90
+    // Size: 0xa3
+    function function_4da869df964b68db(var_338635ce4e1ca9af, var_d4bb121b87421c8) {
+        function_bdf5a0b6049407d3(var_338635ce4e1ca9af, "<dev string:x1c>");
+        while (true) {
+            waitframe();
+            var_6686d1519fd59c8d = function_e170de7c1e9a3dde(var_338635ce4e1ca9af);
+            if (var_6686d1519fd59c8d == "<dev string:x1c>") {
+                continue;
+            }
+            function_bdf5a0b6049407d3(var_338635ce4e1ca9af, "<dev string:x1c>");
+            var_67f14f8315cb0f2f = function_eee525e9016dde8a(var_6686d1519fd59c8d, "<dev string:x20>");
+            if (!isdefined(var_67f14f8315cb0f2f) || var_67f14f8315cb0f2f.size < 1) {
+                continue;
+            }
+            var_10d8148f3496f8de = var_67f14f8315cb0f2f[0];
+            var_33d958e9fe93f83b = function_83176f4297fe19f(var_67f14f8315cb0f2f, 1);
+            [[ var_d4bb121b87421c8 ]](var_10d8148f3496f8de, var_33d958e9fe93f83b);
+        }
+    }
+
+#/

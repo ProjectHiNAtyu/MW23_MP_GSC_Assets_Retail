@@ -1,0 +1,114 @@
+#using scripts\anim\utility_common;
+
+#namespace namespace_ed1a31c57fbeda69;
+
+// Namespace namespace_ed1a31c57fbeda69 / scripts\anim\weaponlist
+// Params 0, eflags: 0x0
+// Checksum 0x0, Offset: 0xc8
+// Size: 0x36
+function function_924fbdb8c780e71e() {
+    return function_ffd512398892baae(self.var_e573dcdfaed7ad) || function_9f41147ef749ecd2(self.var_e573dcdfaed7ad) || function_44b6f5ba4f10e400(self.var_e573dcdfaed7ad) > 0;
+}
+
+// Namespace namespace_ed1a31c57fbeda69 / scripts\anim\weaponlist
+// Params 0, eflags: 0x0
+// Checksum 0x0, Offset: 0x107
+// Size: 0x25
+function function_f6bb4e4fc69f467e() {
+    return function_ad7b46ffab32c590(self.var_e573dcdfaed7ad) || function_44b6f5ba4f10e400(self.var_e573dcdfaed7ad) == 1;
+}
+
+// Namespace namespace_ed1a31c57fbeda69 / scripts\anim\weaponlist
+// Params 0, eflags: 0x0
+// Checksum 0x0, Offset: 0x135
+// Size: 0x29
+function function_13e3a5081bdbd216() {
+    if (function_924fbdb8c780e71e()) {
+        return (0.1 / function_67942a6ac05e30a8(self.var_e573dcdfaed7ad));
+    }
+    return 0.5;
+}
+
+// Namespace namespace_ed1a31c57fbeda69 / scripts\anim\weaponlist
+// Params 0, eflags: 0x0
+// Checksum 0x0, Offset: 0x166
+// Size: 0x38
+function function_deef15aca83977b7() {
+    if (function_924fbdb8c780e71e()) {
+        return (0.1 / function_67942a6ac05e30a8(self.var_e573dcdfaed7ad));
+    }
+    if (scripts\anim\utility_common::function_f6c41425054da4ec()) {
+        return 1;
+    }
+    return 0.2;
+}
+
+// Namespace namespace_ed1a31c57fbeda69 / scripts\anim\weaponlist
+// Params 0, eflags: 0x0
+// Checksum 0x0, Offset: 0x1a6
+// Size: 0x7
+function function_6b755649d378ef8e() {
+    return 0.25;
+}
+
+// Namespace namespace_ed1a31c57fbeda69 / scripts\anim\weaponlist
+// Params 1, eflags: 0x0
+// Checksum 0x0, Offset: 0x1b6
+// Size: 0x5f
+function function_a3d78669217c46f8(var_ca751625cc66a1f0) {
+    if (!function_924fbdb8c780e71e() || isdefined(var_ca751625cc66a1f0) && var_ca751625cc66a1f0 == 1) {
+        var_ae14c5a8b1b582 = 0.5 + function_f50d66d3bf7c1184(1);
+        return (function_67942a6ac05e30a8(self.var_e573dcdfaed7ad) * var_ae14c5a8b1b582);
+    }
+    return function_67942a6ac05e30a8(self.var_e573dcdfaed7ad);
+}
+
+// Namespace namespace_ed1a31c57fbeda69 / scripts\anim\weaponlist
+// Params 0, eflags: 0x0
+// Checksum 0x0, Offset: 0x21d
+// Size: 0x97
+function function_b59dd3904e564e03() {
+    function_cd0acb4784e8defa(isdefined(self.var_e573dcdfaed7ad), "<dev string:x1c>" + self.var_3aa48489eee7efa6);
+    if (function_c8faefa04f41c504(self.var_e573dcdfaed7ad)) {
+        self.var_86aaef8401bf00bb = 0;
+        return 0;
+    }
+    if (!isdefined(self.var_86aaef8401bf00bb)) {
+        self.var_86aaef8401bf00bb = function_ca63c9289e5c8e42(self.var_e573dcdfaed7ad);
+    } else {
+        self.var_86aaef8401bf00bb = function_ca63c9289e5c8e42(self.var_e573dcdfaed7ad);
+    }
+    function_cd0acb4784e8defa(isdefined(self.var_86aaef8401bf00bb), "<dev string:x3f>");
+}
+
+// Namespace namespace_ed1a31c57fbeda69 / scripts\anim\weaponlist
+// Params 5, eflags: 0x0
+// Checksum 0x0, Offset: 0x2bc
+// Size: 0xb6
+function function_19da666fa8e0091(var_332e305ca1ca24ca, var_5ee809f61d319039, var_455bc5f6c5816328, var_834c581144e735c6, var_e29ebb69dcc9e58d) {
+    function_d353703eb7e16967(isdefined(var_332e305ca1ca24ca));
+    function_d353703eb7e16967(isdefined(var_5ee809f61d319039));
+    if (!isdefined(var_455bc5f6c5816328)) {
+        var_455bc5f6c5816328 = 3;
+    }
+    if (!isdefined(var_834c581144e735c6)) {
+        var_455bc5f6c5816328 = 1;
+    }
+    if (!isdefined(var_e29ebb69dcc9e58d)) {
+        var_e29ebb69dcc9e58d = "\231S\6\223\2\17A1";
+    }
+    var_332e305ca1ca24ca = function_ce475a45e43822d5(var_332e305ca1ca24ca);
+    anim.var_c2853cc43b797b6b[var_332e305ca1ca24ca]["\203\357\5\350\227\a+"] = var_5ee809f61d319039;
+    anim.var_c2853cc43b797b6b[var_332e305ca1ca24ca]["\232\357\5\243\245\326\225"] = var_455bc5f6c5816328;
+    anim.var_c2853cc43b797b6b[var_332e305ca1ca24ca]["\247(\tr{\2602JC\223\213"] = var_834c581144e735c6;
+    anim.var_c2853cc43b797b6b[var_332e305ca1ca24ca]["\237\315\6\302s\264\332\346"] = var_e29ebb69dcc9e58d;
+}
+
+// Namespace namespace_ed1a31c57fbeda69 / scripts\anim\weaponlist
+// Params 1, eflags: 0x0
+// Checksum 0x0, Offset: 0x37a
+// Size: 0x27
+function function_d3e4845d12db2cc2(var_fdecfe7a76e07cc3) {
+    anim.var_c2853cc43b797b6b[function_ce475a45e43822d5(var_fdecfe7a76e07cc3)]["\203\357\5\350\227\a+"] = "\212\257\aqO\273\246\210\334";
+}
+

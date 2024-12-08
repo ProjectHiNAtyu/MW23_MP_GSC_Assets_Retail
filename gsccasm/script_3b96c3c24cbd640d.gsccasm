@@ -1,0 +1,619 @@
+#using scripts\common\utility;
+#using scripts\engine\utility;
+
+#namespace namespace_2586b47195d678e2;
+
+// Namespace namespace_2586b47195d678e2 / namespace_9047022678f1260f
+// Params 0, eflags: 0x0
+// Checksum 0x0, Offset: 0x378
+// Size: 0x160
+function init() {
+    function_cbaab1c2dd1316bc(@"hash_9a6917debd75e407", 0);
+    waitframe();
+    level.var_2586b47195d678e2 = function_7509d740e35b3e5d();
+    level.var_2586b47195d678e2.var_2586b47195d678e2 = function_8d124c36b0245a0b("\201\241\17\336\236\250gG\230\243\177g\352\332\334\20\337", "\265\355\223;\2623\3q\321\352B#m\257\300\252\340\212");
+    if (!isdefined(level.var_2586b47195d678e2.var_2586b47195d678e2) || level.var_2586b47195d678e2.var_2586b47195d678e2.size <= 0) {
+        return;
+    }
+    level.var_2586b47195d678e2.var_e8495aae5d923f6b = [];
+    level thread function_34e91df691f1b2d();
+    foreach (var_bf9dfbf632bd15e5 in level.var_2586b47195d678e2.var_2586b47195d678e2) {
+        var_bf9dfbf632bd15e5.var_9f92ef46c7d183c2 = "\246\31\4{\314\231";
+        var_bf9dfbf632bd15e5 function_f0bb744d5a0163bb();
+        var_bf9dfbf632bd15e5 thread function_b3d06ff630dbc54a();
+    }
+    if (isdefined(level.var_6d25722e458c705c)) {
+        function_962879c361cc3ecf(level.var_2586b47195d678e2.var_2586b47195d678e2, level.var_6d25722e458c705c);
+        return;
+    }
+    function_962879c361cc3ecf(level.var_2586b47195d678e2.var_2586b47195d678e2, &function_6083b6fbc0556571);
+}
+
+// Namespace namespace_2586b47195d678e2 / namespace_9047022678f1260f
+// Params 0, eflags: 0x0
+// Checksum 0x0, Offset: 0x4e0
+// Size: 0xd1
+function function_f0bb744d5a0163bb() {
+    if (isdefined(self.var_6be8d0fa2b0cfbdd)) {
+        if (!isdefined(level.var_2586b47195d678e2.var_e8495aae5d923f6b[self.var_6be8d0fa2b0cfbdd])) {
+            level.var_2586b47195d678e2.var_e8495aae5d923f6b[self.var_6be8d0fa2b0cfbdd] = [];
+            level thread function_2203036864012d45(self.var_6be8d0fa2b0cfbdd);
+        }
+        level.var_2586b47195d678e2.var_e8495aae5d923f6b[self.var_6be8d0fa2b0cfbdd] = function_b40b1c2c0e2b7da(level.var_2586b47195d678e2.var_e8495aae5d923f6b[self.var_6be8d0fa2b0cfbdd], self);
+        level.var_2586b47195d678e2.var_2586b47195d678e2 = function_bccb64a185146783(level.var_2586b47195d678e2.var_2586b47195d678e2, self);
+    }
+}
+
+// Namespace namespace_2586b47195d678e2 / namespace_9047022678f1260f
+// Params 0, eflags: 0x0
+// Checksum 0x0, Offset: 0x5b9
+// Size: 0x47
+function function_6083b6fbc0556571() {
+    if (istrue(level.var_578811872588a909)) {
+        return;
+    }
+    self endon("\224u\6#\262\302\321\r");
+    function_a3cd93b78d71784f();
+    var_9f92ef46c7d183c2 = function_c4b041ba63530509();
+    if (isdefined(var_9f92ef46c7d183c2)) {
+        function_fafca64a9315d72e(var_9f92ef46c7d183c2);
+        return;
+    }
+    function_b9ed60d000be57f3();
+}
+
+// Namespace namespace_2586b47195d678e2 / namespace_9047022678f1260f
+// Params 1, eflags: 0x0
+// Checksum 0x0, Offset: 0x608
+// Size: 0x2b7
+function function_fafca64a9315d72e(var_9f92ef46c7d183c2) {
+    self endon("\224u\6#\262\302\321\r");
+    if (function_34464c8ae347c11c(var_9f92ef46c7d183c2, "\261)\a{\266K\227\247%")) {
+        childthread function_b9ed60d000be57f3(var_9f92ef46c7d183c2);
+        return;
+    }
+    switch (var_9f92ef46c7d183c2) {
+    case #"hash_8fc81026b8b609d9":
+        if (function_c894a0e711a043fc()) {
+            /#
+                function_87442531009ed7b(self.var_cefc229ff6de3343 + (0, 0, 1.5), "<dev string:x1c>", (1, 1, 1), 1, 0.1, 2000);
+            #/
+        }
+        childthread function_b9ed60d000be57f3();
+        break;
+    case #"hash_f4b6b015232fe2c6":
+        if (function_c894a0e711a043fc()) {
+            /#
+                function_87442531009ed7b(self.var_cefc229ff6de3343 + (0, 0, 1.5), "<dev string:x2c>", (1, 1, 1), 1, 0.1, 2000);
+            #/
+        }
+        childthread function_8aecd30c65f96c34();
+        break;
+    case #"hash_21d2e67993db5d96":
+        if (function_c894a0e711a043fc()) {
+            /#
+                function_87442531009ed7b(self.var_cefc229ff6de3343 + (0, 0, 1.5), "<dev string:x3b>", (1, 1, 1), 1, 0.1, 2000);
+            #/
+        }
+        childthread function_2473a787e626f050();
+        break;
+    case #"hash_b196217e12b52a9b":
+        if (function_c894a0e711a043fc()) {
+            /#
+                function_87442531009ed7b(self.var_cefc229ff6de3343 + (0, 0, 1.5), "<dev string:x4d>", (1, 1, 1), 1, 0.1, 2000);
+            #/
+        }
+        childthread function_7e92a8be4ebb818d();
+        break;
+    case #"hash_97430f6c58e61cbc":
+        if (function_c894a0e711a043fc()) {
+            /#
+                function_87442531009ed7b(self.var_cefc229ff6de3343 + (0, 0, 1.5), "<dev string:x5e>", (1, 1, 1), 1, 0.1, 2000);
+            #/
+        }
+        childthread function_5db79dc5bd6622ae();
+        break;
+    case #"hash_8c1dea2ed75f68af":
+        if (function_c894a0e711a043fc()) {
+            /#
+                function_87442531009ed7b(self.var_cefc229ff6de3343 + (0, 0, 1.5), "<dev string:x6c>", (1, 1, 1), 1, 0.1, 2000);
+            #/
+        }
+        childthread function_cb8c396e6a3669bd();
+        break;
+    case #"hash_c217e57b0068891a":
+        if (function_c894a0e711a043fc()) {
+            /#
+                function_87442531009ed7b(self.var_cefc229ff6de3343 + (0, 0, 1.5), "<dev string:x7b>", (1, 1, 1), 1, 0.1, 2000);
+            #/
+        }
+        childthread function_274f3729561d44c8();
+        break;
+    }
+}
+
+// Namespace namespace_2586b47195d678e2 / namespace_9047022678f1260f
+// Params 0, eflags: 0x0
+// Checksum 0x0, Offset: 0x8c7
+// Size: 0x69
+function function_a3cd93b78d71784f() {
+    self.var_bed1926b469ef79b = function_6ccf6ca6feddadac("\202\334\r\200\341\202K\262T\307k=\271\215\360", self.var_cefc229ff6de3343);
+    self.var_bed1926b469ef79b.var_27cbf5badd0cbdbd = self.var_27cbf5badd0cbdbd;
+    self.var_bed1926b469ef79b function_8528db9a6333be14(self.var_4da7687ea1974f93);
+    self.var_bed1926b469ef79b function_55010fb1508e6e62();
+    function_52418754bbdcae29();
+}
+
+// Namespace namespace_2586b47195d678e2 / namespace_9047022678f1260f
+// Params 0, eflags: 0x0
+// Checksum 0x0, Offset: 0x938
+// Size: 0x3a
+function function_a0f6354d81972e8d() {
+    self.var_bed1926b469ef79b function_356819225edc6d6a(1);
+    self.var_bed1926b469ef79b waittill("\253\276\al\213\260B\321\1");
+    self notify("\216u\r_kJ\2079\273\26\233q\277\236`");
+    self.var_bed1926b469ef79b function_33827c42853b31e6();
+}
+
+// Namespace namespace_2586b47195d678e2 / namespace_9047022678f1260f
+// Params 0, eflags: 0x0
+// Checksum 0x0, Offset: 0x97a
+// Size: 0x3b
+function function_a0de48ff79067434() {
+    self.var_9f92ef46c7d183c2 = "\246\31\4{\314\231";
+    self notify("\216u\r_kJ\2079\273\26\233q\277\236`");
+    if (isdefined(self.var_bed1926b469ef79b)) {
+        self.var_bed1926b469ef79b function_33827c42853b31e6();
+    }
+    function_620b685316b84bfc();
+}
+
+// Namespace namespace_2586b47195d678e2 / namespace_9047022678f1260f
+// Params 1, eflags: 0x0
+// Checksum 0x0, Offset: 0x9bd
+// Size: 0x11f
+function function_b9ed60d000be57f3(var_1f32425def6f7b2e) {
+    if (!isdefined(self.var_b9ed60d000be57f3) && !isdefined(var_1f32425def6f7b2e)) {
+        return;
+    }
+    self endon("\216u\r_kJ\2079\273\26\233q\277\236`");
+    self endon("\2022\232c\220\230\21f\37\33_\v\200\233\377\240\250h?\331");
+    if (isdefined(var_1f32425def6f7b2e)) {
+        var_bf9dfbf632bd15e5 = var_1f32425def6f7b2e;
+    } else {
+        var_bf9dfbf632bd15e5 = "\233N\r\2336\223\254\312\334\353\314\264\341+F" + function_7c1308153f8d8b3f(self.var_b9ed60d000be57f3.size) + 1;
+    }
+    if (function_c894a0e711a043fc()) {
+        var_c926d15b7da67be = var_bf9dfbf632bd15e5;
+        if (isdefined(var_1f32425def6f7b2e)) {
+            var_c926d15b7da67be = "\276?\n\207t\t8[\204\301\320Z" + var_c926d15b7da67be;
+        }
+        /#
+            function_87442531009ed7b(self.var_cefc229ff6de3343, var_bf9dfbf632bd15e5, (1, 1, 1), 1, 0.1, 1000);
+        #/
+    }
+    self.var_9f92ef46c7d183c2 = "\223\a\3{\232";
+    self.var_bed1926b469ef79b function_55010fb1508e6e62();
+    self.var_bed1926b469ef79b function_a1c15ca5ee0c0c8d(var_bf9dfbf632bd15e5);
+    if (isdefined(self.var_e56ed5457cdc2def) && !isdefined(var_1f32425def6f7b2e)) {
+        if (function_7c1308153f8d8b3f(3) == 0) {
+            var_bf9dfbf632bd15e5 = "\266X\16\353\"\263\360g\223\327\23\223\257T\350\363" + function_7c1308153f8d8b3f(self.var_e56ed5457cdc2def.size) + 1;
+            self.var_bed1926b469ef79b function_a1c15ca5ee0c0c8d(var_bf9dfbf632bd15e5);
+        }
+    }
+}
+
+// Namespace namespace_2586b47195d678e2 / namespace_9047022678f1260f
+// Params 0, eflags: 0x0
+// Checksum 0x0, Offset: 0xae4
+// Size: 0xa2
+function function_7e92a8be4ebb818d() {
+    if (!isdefined(self.var_7e92a8be4ebb818d)) {
+        return;
+    }
+    self endon("\216u\r_kJ\2079\273\26\233q\277\236`");
+    self endon("\247F\24\16\253BQF\333/\b\270\37\356\33\327kS\217\25D:");
+    var_bf9dfbf632bd15e5 = "\221\306\16C\236c\277\177\375\341#K\b\21\264o" + function_7c1308153f8d8b3f(self.var_7e92a8be4ebb818d.size) + 1;
+    if (function_c894a0e711a043fc()) {
+        /#
+            function_87442531009ed7b(self.var_cefc229ff6de3343, var_bf9dfbf632bd15e5, (1, 1, 1), 1, 0.1, 1000);
+        #/
+    }
+    self.var_9f92ef46c7d183c2 = "\223\a\3{\232";
+    self.var_bed1926b469ef79b function_55010fb1508e6e62();
+    self.var_bed1926b469ef79b function_a1c15ca5ee0c0c8d(var_bf9dfbf632bd15e5);
+}
+
+// Namespace namespace_2586b47195d678e2 / namespace_9047022678f1260f
+// Params 0, eflags: 0x0
+// Checksum 0x0, Offset: 0xb8e
+// Size: 0xf3
+function function_8aecd30c65f96c34() {
+    if (!isdefined(self.var_8aecd30c65f96c34)) {
+        return;
+    }
+    self endon("\216u\r_kJ\2079\273\26\233q\277\236`");
+    self endon("\224M\22\233\35\333\301\353\3466\223++\315n}f\33-\203");
+    for (var_e689afa1a3e3d500 = function_7c1308153f8d8b3f(self.var_8aecd30c65f96c34.size) + 1; true; var_e689afa1a3e3d500 = 1) {
+        for (i = var_e689afa1a3e3d500; i < self.var_8aecd30c65f96c34.size + 1; i++) {
+            var_37d400e6a7a39c44 = 3;
+            var_bf9dfbf632bd15e5 = "\212\342\14XO\262\21sRy\224\251\314\213" + i;
+            if (function_c894a0e711a043fc()) {
+                /#
+                    function_87442531009ed7b(self.var_cefc229ff6de3343, var_bf9dfbf632bd15e5, (1, 1, 1), 1, 0.1, function_fe746f03f612d132(var_37d400e6a7a39c44 / 0.05));
+                #/
+            }
+            self.var_9f92ef46c7d183c2 = "\223\a\3{\232";
+            self.var_bed1926b469ef79b function_55010fb1508e6e62();
+            self.var_bed1926b469ef79b function_a1c15ca5ee0c0c8d(var_bf9dfbf632bd15e5);
+            wait var_37d400e6a7a39c44;
+        }
+    }
+}
+
+// Namespace namespace_2586b47195d678e2 / namespace_9047022678f1260f
+// Params 0, eflags: 0x0
+// Checksum 0x0, Offset: 0xc89
+// Size: 0xfd
+function function_2473a787e626f050() {
+    if (!isdefined(self.var_2473a787e626f050)) {
+        return;
+    }
+    self endon("\216u\r_kJ\2079\273\26\233q\277\236`");
+    self endon("\216\t\25\273\375(\3i_\250\213\362\260MZ\a\241i90\26\320\233");
+    for (var_e689afa1a3e3d500 = function_7c1308153f8d8b3f(self.var_2473a787e626f050.size) + 1; true; var_e689afa1a3e3d500 = 1) {
+        for (i = var_e689afa1a3e3d500; i < self.var_2473a787e626f050.size + 1; i++) {
+            var_37d400e6a7a39c44 = function_c4c0c8bb2e4b99c9(1.5, 4);
+            var_bf9dfbf632bd15e5 = "\207\203\17\217\207\6j]@\306\277\58\210r\22\325" + i;
+            if (function_c894a0e711a043fc()) {
+                /#
+                    function_87442531009ed7b(self.var_cefc229ff6de3343, var_bf9dfbf632bd15e5, (1, 1, 1), 1, 0.1, function_fe746f03f612d132(var_37d400e6a7a39c44 / 0.05));
+                #/
+            }
+            self.var_9f92ef46c7d183c2 = "\223\a\3{\232";
+            self.var_bed1926b469ef79b function_55010fb1508e6e62();
+            self.var_bed1926b469ef79b function_a1c15ca5ee0c0c8d(var_bf9dfbf632bd15e5);
+            wait var_37d400e6a7a39c44;
+        }
+    }
+}
+
+// Namespace namespace_2586b47195d678e2 / namespace_9047022678f1260f
+// Params 0, eflags: 0x0
+// Checksum 0x0, Offset: 0xd8e
+// Size: 0xa2
+function function_cb8c396e6a3669bd() {
+    if (!isdefined(self.var_cb8c396e6a3669bd)) {
+        return;
+    }
+    self endon("\216u\r_kJ\2079\273\26\233q\277\236`");
+    self endon("\233p\22\346\321\336\301\372\2716\311\225\262s\334}\23-s\265");
+    var_bf9dfbf632bd15e5 = "\226\277\14\233\301\226'\357\310\177\252\271\5\270" + function_7c1308153f8d8b3f(self.var_cb8c396e6a3669bd.size) + 1;
+    if (function_c894a0e711a043fc()) {
+        /#
+            function_87442531009ed7b(self.var_cefc229ff6de3343, var_bf9dfbf632bd15e5, (1, 1, 1), 1, 0.1, 1000);
+        #/
+    }
+    self.var_9f92ef46c7d183c2 = "\223\a\3{\232";
+    self.var_bed1926b469ef79b function_55010fb1508e6e62();
+    self.var_bed1926b469ef79b function_a1c15ca5ee0c0c8d(var_bf9dfbf632bd15e5);
+}
+
+// Namespace namespace_2586b47195d678e2 / namespace_9047022678f1260f
+// Params 0, eflags: 0x0
+// Checksum 0x0, Offset: 0xe38
+// Size: 0x15e
+function function_5db79dc5bd6622ae() {
+    if (!isdefined(self.var_5db79dc5bd6622ae)) {
+        return;
+    }
+    self endon("\216u\r_kJ\2079\273\26\233q\277\236`");
+    self endon("\271\26\21\217#\3273OnV;B\21\3353I\263\37\35");
+    self.var_71f878536e7eb467 = 0;
+    for (var_e689afa1a3e3d500 = function_7c1308153f8d8b3f(self.var_5db79dc5bd6622ae.size) + 1; true; var_e689afa1a3e3d500 = 1) {
+        for (i = 1; i < self.var_5db79dc5bd6622ae.size + 1; i++) {
+            var_37d400e6a7a39c44 = function_c4c0c8bb2e4b99c9(0.25, 0.5);
+            if (function_7c1308153f8d8b3f(6) == 0 && !self.var_71f878536e7eb467) {
+                self.var_71f878536e7eb467 = 1;
+                if (i <= 2) {
+                    i += self.var_5db79dc5bd6622ae.size;
+                }
+                i -= 2;
+                var_37d400e6a7a39c44 = 0.1;
+            } else {
+                self.var_71f878536e7eb467 = 0;
+            }
+            var_bf9dfbf632bd15e5 = "\203,\vs\270C\225\340\230\177\22@\257" + i;
+            if (function_c894a0e711a043fc()) {
+                /#
+                    function_87442531009ed7b(self.var_cefc229ff6de3343, var_bf9dfbf632bd15e5, (1, 1, 1), 1, 0.1, function_fe746f03f612d132(var_37d400e6a7a39c44 / 0.05));
+                #/
+            }
+            self.var_9f92ef46c7d183c2 = "\223\a\3{\232";
+            self.var_bed1926b469ef79b function_55010fb1508e6e62();
+            self.var_bed1926b469ef79b function_a1c15ca5ee0c0c8d(var_bf9dfbf632bd15e5);
+            wait var_37d400e6a7a39c44;
+        }
+    }
+}
+
+// Namespace namespace_2586b47195d678e2 / namespace_9047022678f1260f
+// Params 0, eflags: 0x0
+// Checksum 0x0, Offset: 0xf9e
+// Size: 0xef
+function function_274f3729561d44c8() {
+    if (!isdefined(self.var_274f3729561d44c8)) {
+        return;
+    }
+    self endon("\216u\r_kJ\2079\273\26\233q\277\236`");
+    self endon("\231\353\27\313\273_\307\311\303^\3129o\245\220\230\227\250\252\350\353\372\223\242W");
+    self.var_bed1926b469ef79b function_55010fb1508e6e62();
+    while (true) {
+        var_37d400e6a7a39c44 = function_c4c0c8bb2e4b99c9(0.5, 1);
+        if (function_c894a0e711a043fc()) {
+            /#
+                function_87442531009ed7b(self.var_cefc229ff6de3343, "<dev string:x8f>", (1, 1, 1), 1, 0.1, function_fe746f03f612d132(var_37d400e6a7a39c44 / 0.05));
+            #/
+        }
+        self.var_9f92ef46c7d183c2 = "\223\a\3{\232";
+        self.var_bed1926b469ef79b function_8656df4a0c4e8de0("\205\307\22H_\242a\3\"i\a\231\377\273yI\24\317\330\302");
+        self.var_bed1926b469ef79b function_a1c15ca5ee0c0c8d("\264\307\22\3466\234Y\312\315}\205\261+\234\321f6Z\34d");
+        wait var_37d400e6a7a39c44;
+        self.var_bed1926b469ef79b function_a1c15ca5ee0c0c8d("\205\307\22H_\242a\3\"i\a\231\377\273yI\24\317\330\302");
+        self.var_bed1926b469ef79b function_8656df4a0c4e8de0("\264\307\22\3466\234Y\312\315}\205\261+\234\321f6Z\34d");
+        wait var_37d400e6a7a39c44;
+    }
+}
+
+// Namespace namespace_2586b47195d678e2 / namespace_9047022678f1260f
+// Params 0, eflags: 0x0
+// Checksum 0x0, Offset: 0x1095
+// Size: 0x273
+function function_52418754bbdcae29() {
+    var_77ee245b8ad0bfe1 = function_3639b0105491f241(self.var_bed1926b469ef79b.var_3aa48489eee7efa6);
+    for (i = 0; i < var_77ee245b8ad0bfe1; i++) {
+        var_1080d6bb12d6a0d6 = function_e985c2a3d4c5bb7d(self.var_bed1926b469ef79b.var_3aa48489eee7efa6, i);
+        if (function_34464c8ae347c11c(var_1080d6bb12d6a0d6, "\211\361\b\334\215\344\254\3127\372")) {
+            if (function_34464c8ae347c11c(var_1080d6bb12d6a0d6, "\203,\vs\270C\225\340\230\177\22@\257")) {
+                if (!isdefined(self.var_5db79dc5bd6622ae)) {
+                    self.var_5db79dc5bd6622ae = [];
+                }
+                self.var_5db79dc5bd6622ae = function_b40b1c2c0e2b7da(self.var_5db79dc5bd6622ae, var_1080d6bb12d6a0d6);
+                continue;
+            }
+            if (function_34464c8ae347c11c(var_1080d6bb12d6a0d6, "\233N\r\2336\223\254\312\334\353\314\264\341+F")) {
+                if (!isdefined(self.var_b9ed60d000be57f3)) {
+                    self.var_b9ed60d000be57f3 = [];
+                }
+                self.var_b9ed60d000be57f3 = function_b40b1c2c0e2b7da(self.var_b9ed60d000be57f3, var_1080d6bb12d6a0d6);
+                continue;
+            }
+            if (function_34464c8ae347c11c(var_1080d6bb12d6a0d6, "\221\306\16C\236c\277\177\375\341#K\b\21\264o")) {
+                if (!isdefined(self.var_7e92a8be4ebb818d)) {
+                    self.var_7e92a8be4ebb818d = [];
+                }
+                self.var_7e92a8be4ebb818d = function_b40b1c2c0e2b7da(self.var_7e92a8be4ebb818d, var_1080d6bb12d6a0d6);
+                continue;
+            }
+            if (function_34464c8ae347c11c(var_1080d6bb12d6a0d6, "\207\203\17\217\207\6j]@\306\277\58\210r\22\325")) {
+                if (!isdefined(self.var_2473a787e626f050)) {
+                    self.var_2473a787e626f050 = [];
+                }
+                self.var_2473a787e626f050 = function_b40b1c2c0e2b7da(self.var_2473a787e626f050, var_1080d6bb12d6a0d6);
+                continue;
+            }
+            if (function_34464c8ae347c11c(var_1080d6bb12d6a0d6, "\212\342\14XO\262\21sRy\224\251\314\213")) {
+                if (!isdefined(self.var_8aecd30c65f96c34)) {
+                    self.var_8aecd30c65f96c34 = [];
+                }
+                self.var_8aecd30c65f96c34 = function_b40b1c2c0e2b7da(self.var_8aecd30c65f96c34, var_1080d6bb12d6a0d6);
+                continue;
+            }
+            if (function_34464c8ae347c11c(var_1080d6bb12d6a0d6, "\226\277\14\233\301\226'\357\310\177\252\271\5\270")) {
+                if (!isdefined(self.var_cb8c396e6a3669bd)) {
+                    self.var_cb8c396e6a3669bd = [];
+                }
+                self.var_cb8c396e6a3669bd = function_b40b1c2c0e2b7da(self.var_cb8c396e6a3669bd, var_1080d6bb12d6a0d6);
+                continue;
+            }
+            if (function_34464c8ae347c11c(var_1080d6bb12d6a0d6, "\271\262\21\263\6\222\310U\n\217;\331\2373%\30T\34[")) {
+                if (!isdefined(self.var_274f3729561d44c8)) {
+                    self.var_274f3729561d44c8 = [];
+                }
+                self.var_274f3729561d44c8 = function_b40b1c2c0e2b7da(self.var_274f3729561d44c8, var_1080d6bb12d6a0d6);
+                continue;
+            }
+            if (function_34464c8ae347c11c(var_1080d6bb12d6a0d6, "\266X\16\353\"\263\360g\223\327\23\223\257T\350\363")) {
+                if (!isdefined(self.var_e56ed5457cdc2def)) {
+                    self.var_e56ed5457cdc2def = [];
+                }
+                self.var_e56ed5457cdc2def = function_b40b1c2c0e2b7da(self.var_e56ed5457cdc2def, var_1080d6bb12d6a0d6);
+            }
+        }
+    }
+}
+
+// Namespace namespace_2586b47195d678e2 / namespace_9047022678f1260f
+// Params 0, eflags: 0x0
+// Checksum 0x0, Offset: 0x1310
+// Size: 0xba
+function function_620b685316b84bfc() {
+    if (isdefined(self.var_5db79dc5bd6622ae)) {
+        self.var_5db79dc5bd6622ae = [];
+    }
+    if (isdefined(self.var_b9ed60d000be57f3)) {
+        self.var_b9ed60d000be57f3 = [];
+    }
+    if (isdefined(self.var_7e92a8be4ebb818d)) {
+        self.var_7e92a8be4ebb818d = [];
+    }
+    if (isdefined(self.var_8aecd30c65f96c34)) {
+        self.var_8aecd30c65f96c34 = [];
+    }
+    if (isdefined(self.var_2473a787e626f050)) {
+        self.var_2473a787e626f050 = [];
+    }
+    if (isdefined(self.var_cb8c396e6a3669bd)) {
+        self.var_cb8c396e6a3669bd = [];
+    }
+    if (isdefined(self.var_274f3729561d44c8)) {
+        self.var_274f3729561d44c8 = [];
+    }
+    if (isdefined(self.var_e56ed5457cdc2def)) {
+        self.var_e56ed5457cdc2def = [];
+    }
+}
+
+// Namespace namespace_2586b47195d678e2 / namespace_9047022678f1260f
+// Params 0, eflags: 0x0
+// Checksum 0x0, Offset: 0x13d2
+// Size: 0x16c
+function function_c4b041ba63530509() {
+    if (isdefined(self.var_8d221b9b6d47c98b)) {
+        var_67f14f8315cb0f2f = function_eee525e9016dde8a(self.var_8d221b9b6d47c98b, "\217L\2\260");
+        foreach (var_e921cd2d3fb29b66 in var_67f14f8315cb0f2f) {
+            if (function_34464c8ae347c11c(var_e921cd2d3fb29b66, "\261)\a{\266K\227\247%")) {
+                return var_e921cd2d3fb29b66;
+            }
+        }
+        foreach (var_e921cd2d3fb29b66 in var_67f14f8315cb0f2f) {
+            if (function_34464c8ae347c11c(var_e921cd2d3fb29b66, "\246\255\6\30S\341\363\263")) {
+                switch (var_e921cd2d3fb29b66) {
+                case #"hash_b69937ed5fc0dda7":
+                    return "\264\177\6\272\220)\217C";
+                case #"hash_61d72a335da10598":
+                    return "\252y\5@\303\31c";
+                case #"hash_b30cc7411319f81c":
+                    return "\226\1\b\345\233\272\27\240V'";
+                case #"hash_f872b3e5dcf09621":
+                    return "\216m\a7\350\v\35K\215";
+                case #"hash_b2c7cbae5e07461a":
+                    return "\202\31\4\n%Q";
+                case #"hash_df190818a771f549":
+                    return "\225\233\5L\245\315\265";
+                case #"hash_d32cec26f4e68bfc":
+                    return "\272\276\nv\31\373\23L\361 \357\223";
+                default:
+                    function_4afbe349a074b850("<dev string:xa6>" + var_e921cd2d3fb29b66);
+                    break;
+                }
+            }
+        }
+    }
+    return undefined;
+}
+
+// Namespace namespace_2586b47195d678e2 / namespace_9047022678f1260f
+// Params 0, eflags: 0x0
+// Checksum 0x0, Offset: 0x1547
+// Size: 0x180
+function function_b3d06ff630dbc54a() {
+    if (!isdefined(self.var_b7e50a5d219435c4)) {
+        return;
+    }
+    var_ace6ba3ff3006433 = function_ea667f987463d9d1(self.var_b7e50a5d219435c4, "\225\316\v\315\2313\21\313\33\352\30pr");
+    if (isdefined(var_ace6ba3ff3006433[0])) {
+        if (function_c894a0e711a043fc()) {
+            /#
+                function_87442531009ed7b(self.var_cefc229ff6de3343 + (0, 0, 3), "<dev string:xb9>", (1, 1, 1), 1, 0.1, 10000);
+            #/
+        }
+        var_ace6ba3ff3006433[0] waittill("\224u\6#\262\302\321\r");
+        function_a0de48ff79067434();
+        var_580539e793a261b1 = function_359e715af5e401dc(level.var_2586b47195d678e2.var_e8495aae5d923f6b);
+        foreach (var_1c8ec2040c8a10f8 in var_580539e793a261b1) {
+            foreach (var_bf9dfbf632bd15e5 in level.var_2586b47195d678e2.var_e8495aae5d923f6b[var_1c8ec2040c8a10f8]) {
+                if (self == var_bf9dfbf632bd15e5) {
+                    level.var_2586b47195d678e2.var_e8495aae5d923f6b[var_1c8ec2040c8a10f8] = function_bccb64a185146783(level.var_2586b47195d678e2.var_e8495aae5d923f6b[var_1c8ec2040c8a10f8], self);
+                    return;
+                }
+            }
+        }
+    }
+}
+
+// Namespace namespace_2586b47195d678e2 / namespace_9047022678f1260f
+// Params 0, eflags: 0x0
+// Checksum 0x0, Offset: 0x16cf
+// Size: 0x19
+function function_c894a0e711a043fc() {
+    if (function_fbdb5fd2ac2902f(@"hash_9a6917debd75e407") > 0) {
+        return true;
+    }
+    return false;
+}
+
+// Namespace namespace_2586b47195d678e2 / namespace_9047022678f1260f
+// Params 0, eflags: 0x0
+// Checksum 0x0, Offset: 0x16f1
+// Size: 0x2
+function function_56b0441047cea65b() {
+    
+}
+
+// Namespace namespace_2586b47195d678e2 / namespace_9047022678f1260f
+// Params 0, eflags: 0x0
+// Checksum 0x0, Offset: 0x16fb
+// Size: 0x211
+function function_34e91df691f1b2d() {
+    if (!function_c894a0e711a043fc()) {
+        return;
+    }
+    while (true) {
+        var_f7aa19c560becea9 = 0;
+        var_ec0e4105bdc56e33 = 0;
+        var_580539e793a261b1 = function_359e715af5e401dc(level.var_2586b47195d678e2.var_e8495aae5d923f6b);
+        foreach (var_1c8ec2040c8a10f8 in var_580539e793a261b1) {
+            var_ec0e4105bdc56e33 += level.var_2586b47195d678e2.var_e8495aae5d923f6b[var_1c8ec2040c8a10f8].size;
+            foreach (var_bf9dfbf632bd15e5 in level.var_2586b47195d678e2.var_e8495aae5d923f6b[var_1c8ec2040c8a10f8]) {
+                if (isdefined(var_bf9dfbf632bd15e5.var_9f92ef46c7d183c2) && var_bf9dfbf632bd15e5.var_9f92ef46c7d183c2 == "\223\a\3{\232") {
+                    var_f7aa19c560becea9 += 1;
+                }
+            }
+        }
+        foreach (var_bf9dfbf632bd15e5 in level.var_2586b47195d678e2.var_2586b47195d678e2) {
+            if (isdefined(var_bf9dfbf632bd15e5.var_9f92ef46c7d183c2) && var_bf9dfbf632bd15e5.var_9f92ef46c7d183c2 == "\223\a\3{\232") {
+                var_f7aa19c560becea9 += 1;
+            }
+        }
+        var_49f11cb535c18fd1 = level.var_2586b47195d678e2.var_2586b47195d678e2.size + var_ec0e4105bdc56e33;
+        /#
+            function_50bf0043d47cef57(1000, 70, "<dev string:xcb>" + var_49f11cb535c18fd1, (1, 1, 1), 2);
+        #/
+        /#
+            function_50bf0043d47cef57(1000, 100, "<dev string:xe3>" + var_f7aa19c560becea9, (1, 1, 1), 2);
+        #/
+        waitframe();
+    }
+}
+
+// Namespace namespace_2586b47195d678e2 / namespace_9047022678f1260f
+// Params 1, eflags: 0x0
+// Checksum 0x0, Offset: 0x1914
+// Size: 0x120
+function function_2203036864012d45(var_36f28a99b57ac10b) {
+    if (!function_57b9edd3a74ce257(var_36f28a99b57ac10b)) {
+        function_53f9cfa02ee2daae(var_36f28a99b57ac10b);
+    }
+    while (true) {
+        function_993c89b6ccce803d(var_36f28a99b57ac10b);
+        if (function_c894a0e711a043fc()) {
+            function_100402be61e8fe5(level.var_2586b47195d678e2.var_e8495aae5d923f6b[var_36f28a99b57ac10b].size + "\264\337\35\331\272kg\350\27\255\t\371\303~\b=\27\222\vQR\277%@k\201!{\374\360b" + var_36f28a99b57ac10b);
+        }
+        if (!istrue(level.var_578811872588a909)) {
+            if (isdefined(level.var_6d25722e458c705c)) {
+                function_962879c361cc3ecf(level.var_2586b47195d678e2.var_e8495aae5d923f6b[var_36f28a99b57ac10b], level.var_6d25722e458c705c);
+            } else {
+                function_962879c361cc3ecf(level.var_2586b47195d678e2.var_e8495aae5d923f6b[var_36f28a99b57ac10b], &function_6083b6fbc0556571);
+            }
+        }
+        function_3ab8792bf55efc21(var_36f28a99b57ac10b);
+        if (function_c894a0e711a043fc()) {
+            function_100402be61e8fe5(level.var_2586b47195d678e2.var_e8495aae5d923f6b[var_36f28a99b57ac10b].size + "\201\347\37(4\210\207'7\330\252\346@\27Z/\1\250\343\240]\361\317\356\311@\223\312`c\227\232Q" + var_36f28a99b57ac10b);
+        }
+        if (!istrue(level.var_578811872588a909)) {
+            function_962879c361cc3ecf(level.var_2586b47195d678e2.var_e8495aae5d923f6b[var_36f28a99b57ac10b], &function_a0de48ff79067434);
+        }
+    }
+}
+

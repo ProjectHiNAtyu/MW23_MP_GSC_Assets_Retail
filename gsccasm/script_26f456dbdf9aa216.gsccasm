@@ -1,0 +1,32 @@
+#using scripts\aitypes\bt_util;
+#using scripts\asm\gesture;
+#using scripts\common\utility;
+#using scripts\engine\utility;
+
+#namespace namespace_cbce62193111f79;
+
+// Namespace namespace_cbce62193111f79 / namespace_a3bb9840357a7ef2
+// Params 2, eflags: 0x0
+// Checksum 0x0, Offset: 0xb2
+// Size: 0xbe
+function function_5ad32ab5f21ddf93(var_4eac56982b6ca449, var_f3cadc51d63225c7) {
+    var_ce322b78f58639a4 = self function_92435c7a6ae85c3c();
+    if (var_f3cadc51d63225c7.size == 1) {
+        thread scripts\asm\gesture::function_f79b7b44c8bbff1(var_f3cadc51d63225c7[0], undefined, undefined, "\252\5\b\37\232\220\264EU)");
+        return;
+    }
+    if (var_f3cadc51d63225c7.size == 2) {
+        thread scripts\asm\gesture::function_f79b7b44c8bbff1(var_f3cadc51d63225c7[0], var_f3cadc51d63225c7[1], undefined, "\252\5\b\37\232\220\264EU)");
+        return;
+    }
+    if (var_f3cadc51d63225c7.size == 3) {
+        thread scripts\asm\gesture::function_f79b7b44c8bbff1(var_f3cadc51d63225c7[0], var_f3cadc51d63225c7[1], var_f3cadc51d63225c7[2], "\252\5\b\37\232\220\264EU)");
+        return;
+    }
+    if (var_f3cadc51d63225c7.size == 4) {
+        thread scripts\asm\gesture::function_f79b7b44c8bbff1(var_f3cadc51d63225c7[0], var_f3cadc51d63225c7[1], var_f3cadc51d63225c7[2], var_f3cadc51d63225c7[3]);
+        return;
+    }
+    function_4afbe349a074b850("<dev string:x1c>" + var_f3cadc51d63225c7.size + "<dev string:x5f>");
+}
+

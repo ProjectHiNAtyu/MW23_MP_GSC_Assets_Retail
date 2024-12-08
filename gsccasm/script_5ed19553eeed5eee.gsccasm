@@ -1,0 +1,29 @@
+#using scripts\asm\asm;
+#using scripts\engine\throttle;
+#using scripts\engine\utility;
+
+#namespace namespace_9bf153ddf180349d;
+
+// Namespace namespace_9bf153ddf180349d / namespace_cbab8cef24b931b4
+// Params 2, eflags: 0x0
+// Checksum 0x0, Offset: 0xca
+// Size: 0x1b
+function function_f47c0d9f38df3006(var_301694ba27d93ff7, var_4eac56982b6ca449) {
+    thread function_c28d901dcf1366a5();
+}
+
+// Namespace namespace_9bf153ddf180349d / namespace_cbab8cef24b931b4
+// Params 0, eflags: 0x0
+// Checksum 0x0, Offset: 0xed
+// Size: 0x6d
+function function_c28d901dcf1366a5() {
+    self endon("\224u\6#\262\302\321\r");
+    level endon("\270\35\v7_+\242\247Qp\233\2078");
+    if (!isdefined(level.var_cffed538734e5c25)) {
+        level.var_cffed538734e5c25 = function_e4c99b0f178ffb98("\275\350\20\214Y7\340\205\335sE\rN\275\35\216\33V", function_fbdb5fd2ac2902f(@"hash_31df6612d8150a09", 3), level.var_2998a9abebdef17b);
+    }
+    function_f632348cbb773537(level.var_cffed538734e5c25, self);
+    self.var_5798e77a09418892 = 1;
+    self function_206784e76bc07965();
+}
+

@@ -1,0 +1,103 @@
+#using script_405d05c89e998922;
+#using scripts\anim\utility_common;
+#using scripts\asm\asm;
+#using scripts\asm\shared\utility;
+#using scripts\common\utility;
+#using scripts\engine\utility;
+
+#namespace namespace_d3a2045314c6410;
+
+// Namespace namespace_d3a2045314c6410 / namespace_7592b800c0f1716e
+// Params 4, eflags: 0x0
+// Checksum 0x0, Offset: 0x11f
+// Size: 0x30
+function function_d0bf32b41b280147(var_301694ba27d93ff7, var_4eac56982b6ca449, var_f2b19b25d457c2a6, var_f3cadc51d63225c7) {
+    if (namespace_9e6ef02d993a7eba::function_526588b54430cb5b()) {
+        return false;
+    }
+    return true;
+}
+
+// Namespace namespace_d3a2045314c6410 / namespace_7592b800c0f1716e
+// Params 4, eflags: 0x0
+// Checksum 0x0, Offset: 0x158
+// Size: 0xfb
+function function_2a393c2fedb5f34f(var_301694ba27d93ff7, var_4eac56982b6ca449, var_f3cadc51d63225c7, var_e0d43942be02f43) {
+    if (!isdefined(self.var_13caadb56791fe37)) {
+        self.var_13caadb56791fe37 = 0;
+    }
+    var_15a44739190d2093 = "\257\255\59/\354\343";
+    if (self.var_13caadb56791fe37 > 135 || self.var_13caadb56791fe37 <= -135) {
+        var_15a44739190d2093 = "\241.\b\235?\322\360\367\213z";
+    } else if (self.var_13caadb56791fe37 > 45 && self.var_13caadb56791fe37 <= 135) {
+        var_15a44739190d2093 = "\207S\6K \247|\263";
+    } else if (self.var_13caadb56791fe37 > -45 && self.var_13caadb56791fe37 <= 45) {
+        var_15a44739190d2093 = "\255[\t\30\32\326\307\373\237R\25";
+    }
+    var_59c845b773d9a361 = function_97e3d03766d35f35();
+    if (var_59c845b773d9a361 != "\275\251\6\215-\316\r\321") {
+        var_15a44739190d2093 += "\223L\2\276" + var_59c845b773d9a361;
+    }
+    var_99bec16caab7deb4 = function_dad067be8c57bb6e(var_4eac56982b6ca449, var_15a44739190d2093);
+    return var_99bec16caab7deb4;
+}
+
+// Namespace namespace_d3a2045314c6410 / namespace_7592b800c0f1716e
+// Params 3, eflags: 0x0
+// Checksum 0x0, Offset: 0x25c
+// Size: 0x3c
+function function_645fa604d9b5ab42(var_301694ba27d93ff7, var_4eac56982b6ca449, var_f3cadc51d63225c7) {
+    self function_e3731f2031493faf("\206\326\b2\343\306\3P\354k");
+    self function_e3731f2031493faf("\216\237\r\2607\263\215Y\4F\254\33\35,\334");
+    function_d6bf748504128fe(var_301694ba27d93ff7, var_4eac56982b6ca449);
+}
+
+// Namespace namespace_d3a2045314c6410 / namespace_7592b800c0f1716e
+// Params 3, eflags: 0x0
+// Checksum 0x0, Offset: 0x2a0
+// Size: 0x7b
+function function_1defedc29182fb69(var_301694ba27d93ff7, var_4eac56982b6ca449, var_f3cadc51d63225c7) {
+    var_2e6c636f8e86eff0 = function_928a745f7350025a(self);
+    if (!var_2e6c636f8e86eff0) {
+        if (isdefined(self.var_f0523f8b0cb1ba9b)) {
+            var_455bc5f6c5816328 = var_f3cadc51d63225c7;
+            if (!isdefined(var_455bc5f6c5816328)) {
+                var_455bc5f6c5816328 = 10;
+            }
+            function_72c3683cf1d2313(var_301694ba27d93ff7, self.var_f0523f8b0cb1ba9b, var_455bc5f6c5816328);
+        }
+    }
+    if (!isdefined(self)) {
+        return;
+    }
+    if (!var_2e6c636f8e86eff0) {
+        self function_9307af8b6551263e();
+        wait 0.1;
+    }
+}
+
+// Namespace namespace_d3a2045314c6410 / namespace_7592b800c0f1716e
+// Params 3, eflags: 0x0
+// Checksum 0x0, Offset: 0x323
+// Size: 0x26
+function function_1f479286701ff8f5(var_301694ba27d93ff7, var_4eac56982b6ca449, var_f3cadc51d63225c7) {
+    return function_2a393c2fedb5f34f(var_301694ba27d93ff7, var_4eac56982b6ca449, var_f3cadc51d63225c7, 1);
+}
+
+// Namespace namespace_d3a2045314c6410 / namespace_7592b800c0f1716e
+// Params 0, eflags: 0x0
+// Checksum 0x0, Offset: 0x352
+// Size: 0x6b
+function function_97e3d03766d35f35() {
+    var_334cb8b20623d94b = "\275\251\6\215-\316\r\321";
+    if (isdefined(self.var_c21476b5e76641a0) && function_eceef82056e1540f(self.var_c21476b5e76641a0)) {
+        var_334cb8b20623d94b = "\233D\n\207\320\33t\352\307\223\263o";
+    } else {
+        var_6c8d21b2e54b2478 = self.var_a2ca70925c0224f3 / self.var_c102b6aca1c7cedf;
+        if (var_6c8d21b2e54b2478 > 0.7) {
+            var_334cb8b20623d94b = "\247F\6\203\357\242]\202";
+        }
+    }
+    return var_334cb8b20623d94b;
+}
+

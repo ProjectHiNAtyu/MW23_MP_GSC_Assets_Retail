@@ -1,0 +1,49 @@
+#using script_5a4a5d9ba343ff8f;
+#using scripts\engine\utility;
+
+#namespace namespace_eacada4b289f07a0;
+
+// Namespace namespace_eacada4b289f07a0 / namespace_e1179dfac473753b
+// Params 3, eflags: 0x0
+// Checksum 0x0, Offset: 0xa1
+// Size: 0xc9
+function function_9ed05c2e5026fd2c(var_473d8bdf00aa1996, var_d8e110443d274922, var_21081d0182cdd254) {
+    if (!istrue(self.var_971d11b71ceb4346.var_d9f86989ad15047e)) {
+        return 0;
+    }
+    if (function_8ce7894f1a52fb77("\221v\6\207\220\237\256\b")) {
+        return 0;
+    }
+    function_d353703eb7e16967(isdefined(var_d8e110443d274922.var_816461f6f23f6650));
+    var_ff12966079a5dc0 = function_108973a907c11ca7("\221v\6\207\220\237\256\b", var_473d8bdf00aa1996, undefined, &function_c32337ecb8f9a0d7, &function_2c245ad7a673c5ca);
+    var_ff12966079a5dc0.var_f26427ea0e63289a = self.var_816461f6f23f6650;
+    var_ff12966079a5dc0.var_d8e110443d274922 = var_d8e110443d274922;
+    var_ff12966079a5dc0.var_59d3c1f3438e77ef = var_d8e110443d274922.var_816461f6f23f6650;
+    var_ff12966079a5dc0.var_21081d0182cdd254 = var_21081d0182cdd254;
+    return function_41fdf8221173f4dd(var_ff12966079a5dc0);
+}
+
+// Namespace namespace_eacada4b289f07a0 / namespace_e1179dfac473753b
+// Params 1, eflags: 0x4
+// Checksum 0x0, Offset: 0x173
+// Size: 0x42
+function private function_c32337ecb8f9a0d7(var_aa79aebb9b434848) {
+    self.var_6d8dd03997c19383 = self.var_c102b6aca1c7cedf;
+    self.var_329b903aa4b37dca = 0;
+    self.var_816461f6f23f6650 = var_aa79aebb9b434848.var_59d3c1f3438e77ef;
+    self function_cb01711839b5112d();
+}
+
+// Namespace namespace_eacada4b289f07a0 / namespace_e1179dfac473753b
+// Params 1, eflags: 0x4
+// Checksum 0x0, Offset: 0x1bd
+// Size: 0x4f
+function private function_2c245ad7a673c5ca(var_aa79aebb9b434848) {
+    self.var_329b903aa4b37dca = 1;
+    self.var_816461f6f23f6650 = var_aa79aebb9b434848.var_f26427ea0e63289a;
+    self function_cb01711839b5112d();
+    if (isdefined(var_aa79aebb9b434848.var_21081d0182cdd254)) {
+        self [[ var_aa79aebb9b434848.var_21081d0182cdd254 ]]();
+    }
+}
+

@@ -1,0 +1,2394 @@
+{
+    "#hash_f548a0cdf85ea69c": "None",
+    "#hash_6c1755e925291505": [
+        {
+            "#hash_8cab666c8e014658": [
+                {
+                    "#hash_cf0d4d8cc5ac99a4": {
+                        "#hash_8e9ef05d6e84968c": "useDynamicIcons",
+                        "#hash_5ca6b54e589421e": 1,
+                        "#hash_5ee809f61d319039": "BoolProperty"
+                    },
+                    "#hash_81e8e81612bae9bf": "Types_BoolProperty"
+                },
+                {
+                    "#hash_cf0d4d8cc5ac99a4": {
+                        "#hash_8e9ef05d6e84968c": "useCounter",
+                        "#hash_5ca6b54e589421e": 1,
+                        "#hash_5ee809f61d319039": "BoolProperty"
+                    },
+                    "#hash_81e8e81612bae9bf": "Types_BoolProperty"
+                },
+                {
+                    "#hash_cf0d4d8cc5ac99a4": {
+                        "#hash_8e9ef05d6e84968c": "useProgressBar",
+                        "#hash_5ca6b54e589421e": 1,
+                        "#hash_5ee809f61d319039": "BoolProperty"
+                    },
+                    "#hash_81e8e81612bae9bf": "Types_BoolProperty"
+                },
+                {
+                    "#hash_cf0d4d8cc5ac99a4": {
+                        "#hash_8e9ef05d6e84968c": "useTimer",
+                        "#hash_5ca6b54e589421e": 1,
+                        "#hash_5ee809f61d319039": "BoolProperty"
+                    },
+                    "#hash_81e8e81612bae9bf": "Types_BoolProperty"
+                }
+            ],
+            "#hash_332e305ca1ca24ca": "INIT"
+        },
+        {
+            "#hash_8cab666c8e014658": [
+                {
+                    "#hash_cf0d4d8cc5ac99a4": {
+                        "#hash_8e9ef05d6e84968c": "title",
+                        "#hash_5ca6b54e589421e": "&JUP_MP/WM_OBJ_CAPTURE_TITLE",
+                        "#hash_5ee809f61d319039": "StringProperty"
+                    },
+                    "#hash_81e8e81612bae9bf": "Types_StringProperty"
+                },
+                {
+                    "#hash_cf0d4d8cc5ac99a4": {
+                        "#hash_8e9ef05d6e84968c": "description",
+                        "#hash_5ca6b54e589421e": "&JUP_MP/WM_OBJ_CAPTURE_DESC",
+                        "#hash_5ee809f61d319039": "StringProperty"
+                    },
+                    "#hash_81e8e81612bae9bf": "Types_StringProperty"
+                },
+                {
+                    "#hash_cf0d4d8cc5ac99a4": {
+                        "#hash_8e9ef05d6e84968c": "animSequence",
+                        "#hash_5ee809f61d319039": "RawStringProperty"
+                    },
+                    "#hash_81e8e81612bae9bf": "Types_RawStringProperty"
+                },
+                {
+                    "#hash_cf0d4d8cc5ac99a4": {
+                        "#hash_8e9ef05d6e84968c": "icon",
+                        "#hash_5ca6b54e589421e": "icon_waypoint_hq_enemy",
+                        "#hash_5ee809f61d319039": "ImageProperty"
+                    },
+                    "#hash_81e8e81612bae9bf": "Types_ImageProperty"
+                },
+                {
+                    "#hash_cf0d4d8cc5ac99a4": {
+                        "#hash_8e9ef05d6e84968c": "iconBacking",
+                        "#hash_5ca6b54e589421e": "icon_waypoint_backing_enemy",
+                        "#hash_5ee809f61d319039": "ImageProperty"
+                    },
+                    "#hash_81e8e81612bae9bf": "Types_ImageProperty"
+                },
+                {
+                    "#hash_cf0d4d8cc5ac99a4": {
+                        "#hash_8e9ef05d6e84968c": "timeLimitedDisplay",
+                        "#hash_5ee809f61d319039": "BoolProperty"
+                    },
+                    "#hash_81e8e81612bae9bf": "Types_BoolProperty"
+                },
+                {
+                    "#hash_cf0d4d8cc5ac99a4": {
+                        "#hash_8e9ef05d6e84968c": "secondsOnScreen",
+                        "#hash_5ee809f61d319039": "IntProperty"
+                    },
+                    "#hash_81e8e81612bae9bf": "Types_IntProperty"
+                },
+                {
+                    "#hash_cf0d4d8cc5ac99a4": {
+                        "#hash_8e9ef05d6e84968c": "iconTintSwatchPath",
+                        "#hash_5ee809f61d319039": "RawStringProperty"
+                    },
+                    "#hash_81e8e81612bae9bf": "Types_RawStringProperty"
+                },
+                {
+                    "#hash_cf0d4d8cc5ac99a4": {
+                        "#hash_8e9ef05d6e84968c": "backingTintSwatchPath",
+                        "#hash_5ca6b54e589421e": "MatchIndicators.EnemyDefault",
+                        "#hash_5ee809f61d319039": "RawStringProperty"
+                    },
+                    "#hash_81e8e81612bae9bf": "Types_RawStringProperty"
+                },
+                {
+                    "#hash_cf0d4d8cc5ac99a4": {
+                        "#hash_8e9ef05d6e84968c": "hasCounter",
+                        "#hash_5ee809f61d319039": "BoolProperty"
+                    },
+                    "#hash_81e8e81612bae9bf": "Types_BoolProperty"
+                },
+                {
+                    "#hash_cf0d4d8cc5ac99a4": {
+                        "#hash_8e9ef05d6e84968c": "hasProgressBar",
+                        "#hash_5ca6b54e589421e": 1,
+                        "#hash_5ee809f61d319039": "BoolProperty"
+                    },
+                    "#hash_81e8e81612bae9bf": "Types_BoolProperty"
+                },
+                {
+                    "#hash_cf0d4d8cc5ac99a4": {
+                        "#hash_8e9ef05d6e84968c": "hasTimer",
+                        "#hash_5ca6b54e589421e": 1,
+                        "#hash_5ee809f61d319039": "BoolProperty"
+                    },
+                    "#hash_81e8e81612bae9bf": "Types_BoolProperty"
+                },
+                {
+                    "#hash_cf0d4d8cc5ac99a4": {
+                        "#hash_8e9ef05d6e84968c": "isAllyTeam",
+                        "#hash_5ee809f61d319039": "BoolProperty"
+                    },
+                    "#hash_81e8e81612bae9bf": "Types_BoolProperty"
+                },
+                {
+                    "#hash_cf0d4d8cc5ac99a4": {
+                        "#hash_8e9ef05d6e84968c": "isEnemyTeam",
+                        "#hash_5ee809f61d319039": "BoolProperty"
+                    },
+                    "#hash_81e8e81612bae9bf": "Types_BoolProperty"
+                },
+                {
+                    "#hash_cf0d4d8cc5ac99a4": {
+                        "#hash_8e9ef05d6e84968c": "showCompletedMessage",
+                        "#hash_5ca6b54e589421e": 1,
+                        "#hash_5ee809f61d319039": "BoolProperty"
+                    },
+                    "#hash_81e8e81612bae9bf": "Types_BoolProperty"
+                },
+                {
+                    "#hash_cf0d4d8cc5ac99a4": {
+                        "#hash_8e9ef05d6e84968c": "iconBackingSuccess",
+                        "#hash_5ca6b54e589421e": "icon_waypoint_backing_friendly",
+                        "#hash_5ee809f61d319039": "ImageProperty"
+                    },
+                    "#hash_81e8e81612bae9bf": "Types_ImageProperty"
+                },
+                {
+                    "#hash_cf0d4d8cc5ac99a4": {
+                        "#hash_8e9ef05d6e84968c": "iconBackingFailure",
+                        "#hash_5ca6b54e589421e": "icon_waypoint_backing_enemy",
+                        "#hash_5ee809f61d319039": "ImageProperty"
+                    },
+                    "#hash_81e8e81612bae9bf": "Types_ImageProperty"
+                },
+                {
+                    "#hash_cf0d4d8cc5ac99a4": {
+                        "#hash_8e9ef05d6e84968c": "successTintSwatchPath",
+                        "#hash_5ca6b54e589421e": "MatchIndicators.AllyDark",
+                        "#hash_5ee809f61d319039": "RawStringProperty"
+                    },
+                    "#hash_81e8e81612bae9bf": "Types_RawStringProperty"
+                },
+                {
+                    "#hash_cf0d4d8cc5ac99a4": {
+                        "#hash_8e9ef05d6e84968c": "failureTintSwatchPath",
+                        "#hash_5ca6b54e589421e": "MatchIndicators.EnemyDark",
+                        "#hash_5ee809f61d319039": "RawStringProperty"
+                    },
+                    "#hash_81e8e81612bae9bf": "Types_RawStringProperty"
+                }
+            ],
+            "#hash_332e305ca1ca24ca": "WAR_CAPTURE"
+        },
+        {
+            "#hash_8cab666c8e014658": [
+                {
+                    "#hash_cf0d4d8cc5ac99a4": {
+                        "#hash_8e9ef05d6e84968c": "title",
+                        "#hash_5ca6b54e589421e": "&JUP_MP/WM_OBJ_DEFEND_TITLE",
+                        "#hash_5ee809f61d319039": "StringProperty"
+                    },
+                    "#hash_81e8e81612bae9bf": "Types_StringProperty"
+                },
+                {
+                    "#hash_cf0d4d8cc5ac99a4": {
+                        "#hash_8e9ef05d6e84968c": "description",
+                        "#hash_5ca6b54e589421e": "&JUP_MP/WM_OBJ_DEFEND_DESC",
+                        "#hash_5ee809f61d319039": "StringProperty"
+                    },
+                    "#hash_81e8e81612bae9bf": "Types_StringProperty"
+                },
+                {
+                    "#hash_cf0d4d8cc5ac99a4": {
+                        "#hash_8e9ef05d6e84968c": "animSequence",
+                        "#hash_5ee809f61d319039": "RawStringProperty"
+                    },
+                    "#hash_81e8e81612bae9bf": "Types_RawStringProperty"
+                },
+                {
+                    "#hash_cf0d4d8cc5ac99a4": {
+                        "#hash_8e9ef05d6e84968c": "icon",
+                        "#hash_5ca6b54e589421e": "icon_waypoint_hq_friendly",
+                        "#hash_5ee809f61d319039": "ImageProperty"
+                    },
+                    "#hash_81e8e81612bae9bf": "Types_ImageProperty"
+                },
+                {
+                    "#hash_cf0d4d8cc5ac99a4": {
+                        "#hash_8e9ef05d6e84968c": "iconBacking",
+                        "#hash_5ca6b54e589421e": "icon_waypoint_backing_friendly",
+                        "#hash_5ee809f61d319039": "ImageProperty"
+                    },
+                    "#hash_81e8e81612bae9bf": "Types_ImageProperty"
+                },
+                {
+                    "#hash_cf0d4d8cc5ac99a4": {
+                        "#hash_8e9ef05d6e84968c": "timeLimitedDisplay",
+                        "#hash_5ee809f61d319039": "BoolProperty"
+                    },
+                    "#hash_81e8e81612bae9bf": "Types_BoolProperty"
+                },
+                {
+                    "#hash_cf0d4d8cc5ac99a4": {
+                        "#hash_8e9ef05d6e84968c": "secondsOnScreen",
+                        "#hash_5ee809f61d319039": "IntProperty"
+                    },
+                    "#hash_81e8e81612bae9bf": "Types_IntProperty"
+                },
+                {
+                    "#hash_cf0d4d8cc5ac99a4": {
+                        "#hash_8e9ef05d6e84968c": "iconTintSwatchPath",
+                        "#hash_5ee809f61d319039": "RawStringProperty"
+                    },
+                    "#hash_81e8e81612bae9bf": "Types_RawStringProperty"
+                },
+                {
+                    "#hash_cf0d4d8cc5ac99a4": {
+                        "#hash_8e9ef05d6e84968c": "backingTintSwatchPath",
+                        "#hash_5ca6b54e589421e": "MatchIndicators.AllyDefault",
+                        "#hash_5ee809f61d319039": "RawStringProperty"
+                    },
+                    "#hash_81e8e81612bae9bf": "Types_RawStringProperty"
+                },
+                {
+                    "#hash_cf0d4d8cc5ac99a4": {
+                        "#hash_8e9ef05d6e84968c": "hasCounter",
+                        "#hash_5ee809f61d319039": "BoolProperty"
+                    },
+                    "#hash_81e8e81612bae9bf": "Types_BoolProperty"
+                },
+                {
+                    "#hash_cf0d4d8cc5ac99a4": {
+                        "#hash_8e9ef05d6e84968c": "hasProgressBar",
+                        "#hash_5ca6b54e589421e": 1,
+                        "#hash_5ee809f61d319039": "BoolProperty"
+                    },
+                    "#hash_81e8e81612bae9bf": "Types_BoolProperty"
+                },
+                {
+                    "#hash_cf0d4d8cc5ac99a4": {
+                        "#hash_8e9ef05d6e84968c": "hasTimer",
+                        "#hash_5ca6b54e589421e": 1,
+                        "#hash_5ee809f61d319039": "BoolProperty"
+                    },
+                    "#hash_81e8e81612bae9bf": "Types_BoolProperty"
+                },
+                {
+                    "#hash_cf0d4d8cc5ac99a4": {
+                        "#hash_8e9ef05d6e84968c": "isAllyTeam",
+                        "#hash_5ee809f61d319039": "BoolProperty"
+                    },
+                    "#hash_81e8e81612bae9bf": "Types_BoolProperty"
+                },
+                {
+                    "#hash_cf0d4d8cc5ac99a4": {
+                        "#hash_8e9ef05d6e84968c": "isEnemyTeam",
+                        "#hash_5ee809f61d319039": "BoolProperty"
+                    },
+                    "#hash_81e8e81612bae9bf": "Types_BoolProperty"
+                },
+                {
+                    "#hash_cf0d4d8cc5ac99a4": {
+                        "#hash_8e9ef05d6e84968c": "showCompletedMessage",
+                        "#hash_5ca6b54e589421e": 1,
+                        "#hash_5ee809f61d319039": "BoolProperty"
+                    },
+                    "#hash_81e8e81612bae9bf": "Types_BoolProperty"
+                },
+                {
+                    "#hash_cf0d4d8cc5ac99a4": {
+                        "#hash_8e9ef05d6e84968c": "iconBackingSuccess",
+                        "#hash_5ca6b54e589421e": "icon_waypoint_backing_friendly",
+                        "#hash_5ee809f61d319039": "ImageProperty"
+                    },
+                    "#hash_81e8e81612bae9bf": "Types_ImageProperty"
+                },
+                {
+                    "#hash_cf0d4d8cc5ac99a4": {
+                        "#hash_8e9ef05d6e84968c": "iconBackingFailure",
+                        "#hash_5ca6b54e589421e": "icon_waypoint_backing_enemy",
+                        "#hash_5ee809f61d319039": "ImageProperty"
+                    },
+                    "#hash_81e8e81612bae9bf": "Types_ImageProperty"
+                },
+                {
+                    "#hash_cf0d4d8cc5ac99a4": {
+                        "#hash_8e9ef05d6e84968c": "successTintSwatchPath",
+                        "#hash_5ca6b54e589421e": "MatchIndicators.AllyDark",
+                        "#hash_5ee809f61d319039": "RawStringProperty"
+                    },
+                    "#hash_81e8e81612bae9bf": "Types_RawStringProperty"
+                },
+                {
+                    "#hash_cf0d4d8cc5ac99a4": {
+                        "#hash_8e9ef05d6e84968c": "failureTintSwatchPath",
+                        "#hash_5ca6b54e589421e": "MatchIndicators.EnemyDark",
+                        "#hash_5ee809f61d319039": "RawStringProperty"
+                    },
+                    "#hash_81e8e81612bae9bf": "Types_RawStringProperty"
+                }
+            ],
+            "#hash_332e305ca1ca24ca": "WAR_DEFEND"
+        },
+        {
+            "#hash_8cab666c8e014658": [
+                {
+                    "#hash_cf0d4d8cc5ac99a4": {
+                        "#hash_8e9ef05d6e84968c": "title",
+                        "#hash_5ca6b54e589421e": "&JUP_MP/WM_OBJ_BOMB_DEFUSE_TITLE",
+                        "#hash_5ee809f61d319039": "StringProperty"
+                    },
+                    "#hash_81e8e81612bae9bf": "Types_StringProperty"
+                },
+                {
+                    "#hash_cf0d4d8cc5ac99a4": {
+                        "#hash_8e9ef05d6e84968c": "description",
+                        "#hash_5ca6b54e589421e": "&JUP_MP/WM_OBJ_BOMB_DEFUSE_DESC",
+                        "#hash_5ee809f61d319039": "StringProperty"
+                    },
+                    "#hash_81e8e81612bae9bf": "Types_StringProperty"
+                },
+                {
+                    "#hash_cf0d4d8cc5ac99a4": {
+                        "#hash_8e9ef05d6e84968c": "animSequence",
+                        "#hash_5ee809f61d319039": "RawStringProperty"
+                    },
+                    "#hash_81e8e81612bae9bf": "Types_RawStringProperty"
+                },
+                {
+                    "#hash_cf0d4d8cc5ac99a4": {
+                        "#hash_8e9ef05d6e84968c": "icon",
+                        "#hash_5ca6b54e589421e": "icon_waypoint_bomb_defuse",
+                        "#hash_5ee809f61d319039": "ImageProperty"
+                    },
+                    "#hash_81e8e81612bae9bf": "Types_ImageProperty"
+                },
+                {
+                    "#hash_cf0d4d8cc5ac99a4": {
+                        "#hash_8e9ef05d6e84968c": "iconBacking",
+                        "#hash_5ca6b54e589421e": "icon_waypoint_backing_enemy",
+                        "#hash_5ee809f61d319039": "ImageProperty"
+                    },
+                    "#hash_81e8e81612bae9bf": "Types_ImageProperty"
+                },
+                {
+                    "#hash_cf0d4d8cc5ac99a4": {
+                        "#hash_8e9ef05d6e84968c": "timeLimitedDisplay",
+                        "#hash_5ee809f61d319039": "BoolProperty"
+                    },
+                    "#hash_81e8e81612bae9bf": "Types_BoolProperty"
+                },
+                {
+                    "#hash_cf0d4d8cc5ac99a4": {
+                        "#hash_8e9ef05d6e84968c": "secondsOnScreen",
+                        "#hash_5ee809f61d319039": "IntProperty"
+                    },
+                    "#hash_81e8e81612bae9bf": "Types_IntProperty"
+                },
+                {
+                    "#hash_cf0d4d8cc5ac99a4": {
+                        "#hash_8e9ef05d6e84968c": "iconTintSwatchPath",
+                        "#hash_5ee809f61d319039": "RawStringProperty"
+                    },
+                    "#hash_81e8e81612bae9bf": "Types_RawStringProperty"
+                },
+                {
+                    "#hash_cf0d4d8cc5ac99a4": {
+                        "#hash_8e9ef05d6e84968c": "backingTintSwatchPath",
+                        "#hash_5ca6b54e589421e": "MatchIndicators.EnemyDefault",
+                        "#hash_5ee809f61d319039": "RawStringProperty"
+                    },
+                    "#hash_81e8e81612bae9bf": "Types_RawStringProperty"
+                },
+                {
+                    "#hash_cf0d4d8cc5ac99a4": {
+                        "#hash_8e9ef05d6e84968c": "hasCounter",
+                        "#hash_5ca6b54e589421e": 1,
+                        "#hash_5ee809f61d319039": "BoolProperty"
+                    },
+                    "#hash_81e8e81612bae9bf": "Types_BoolProperty"
+                },
+                {
+                    "#hash_cf0d4d8cc5ac99a4": {
+                        "#hash_8e9ef05d6e84968c": "hasProgressBar",
+                        "#hash_5ee809f61d319039": "BoolProperty"
+                    },
+                    "#hash_81e8e81612bae9bf": "Types_BoolProperty"
+                },
+                {
+                    "#hash_cf0d4d8cc5ac99a4": {
+                        "#hash_8e9ef05d6e84968c": "hasTimer",
+                        "#hash_5ca6b54e589421e": 1,
+                        "#hash_5ee809f61d319039": "BoolProperty"
+                    },
+                    "#hash_81e8e81612bae9bf": "Types_BoolProperty"
+                },
+                {
+                    "#hash_cf0d4d8cc5ac99a4": {
+                        "#hash_8e9ef05d6e84968c": "isAllyTeam",
+                        "#hash_5ee809f61d319039": "BoolProperty"
+                    },
+                    "#hash_81e8e81612bae9bf": "Types_BoolProperty"
+                },
+                {
+                    "#hash_cf0d4d8cc5ac99a4": {
+                        "#hash_8e9ef05d6e84968c": "isEnemyTeam",
+                        "#hash_5ee809f61d319039": "BoolProperty"
+                    },
+                    "#hash_81e8e81612bae9bf": "Types_BoolProperty"
+                },
+                {
+                    "#hash_cf0d4d8cc5ac99a4": {
+                        "#hash_8e9ef05d6e84968c": "showCompletedMessage",
+                        "#hash_5ca6b54e589421e": 1,
+                        "#hash_5ee809f61d319039": "BoolProperty"
+                    },
+                    "#hash_81e8e81612bae9bf": "Types_BoolProperty"
+                },
+                {
+                    "#hash_cf0d4d8cc5ac99a4": {
+                        "#hash_8e9ef05d6e84968c": "iconBackingSuccess",
+                        "#hash_5ca6b54e589421e": "icon_waypoint_backing_friendly",
+                        "#hash_5ee809f61d319039": "ImageProperty"
+                    },
+                    "#hash_81e8e81612bae9bf": "Types_ImageProperty"
+                },
+                {
+                    "#hash_cf0d4d8cc5ac99a4": {
+                        "#hash_8e9ef05d6e84968c": "iconBackingFailure",
+                        "#hash_5ca6b54e589421e": "icon_waypoint_backing_enemy",
+                        "#hash_5ee809f61d319039": "ImageProperty"
+                    },
+                    "#hash_81e8e81612bae9bf": "Types_ImageProperty"
+                },
+                {
+                    "#hash_cf0d4d8cc5ac99a4": {
+                        "#hash_8e9ef05d6e84968c": "successTintSwatchPath",
+                        "#hash_5ca6b54e589421e": "MatchIndicators.AllyDark",
+                        "#hash_5ee809f61d319039": "RawStringProperty"
+                    },
+                    "#hash_81e8e81612bae9bf": "Types_RawStringProperty"
+                },
+                {
+                    "#hash_cf0d4d8cc5ac99a4": {
+                        "#hash_8e9ef05d6e84968c": "failureTintSwatchPath",
+                        "#hash_5ca6b54e589421e": "MatchIndicators.EnemyDark",
+                        "#hash_5ee809f61d319039": "RawStringProperty"
+                    },
+                    "#hash_81e8e81612bae9bf": "Types_RawStringProperty"
+                }
+            ],
+            "#hash_332e305ca1ca24ca": "WAR_BOMB_DEFUSE"
+        },
+        {
+            "#hash_8cab666c8e014658": [
+                {
+                    "#hash_cf0d4d8cc5ac99a4": {
+                        "#hash_8e9ef05d6e84968c": "title",
+                        "#hash_5ca6b54e589421e": "&JUP_MP/WM_OBJ_BOMB_DEFEND_TITLE",
+                        "#hash_5ee809f61d319039": "StringProperty"
+                    },
+                    "#hash_81e8e81612bae9bf": "Types_StringProperty"
+                },
+                {
+                    "#hash_cf0d4d8cc5ac99a4": {
+                        "#hash_8e9ef05d6e84968c": "description",
+                        "#hash_5ca6b54e589421e": "&JUP_MP/WM_OBJ_BOMB_DEFEND_DESC",
+                        "#hash_5ee809f61d319039": "StringProperty"
+                    },
+                    "#hash_81e8e81612bae9bf": "Types_StringProperty"
+                },
+                {
+                    "#hash_cf0d4d8cc5ac99a4": {
+                        "#hash_8e9ef05d6e84968c": "animSequence",
+                        "#hash_5ee809f61d319039": "RawStringProperty"
+                    },
+                    "#hash_81e8e81612bae9bf": "Types_RawStringProperty"
+                },
+                {
+                    "#hash_cf0d4d8cc5ac99a4": {
+                        "#hash_8e9ef05d6e84968c": "icon",
+                        "#hash_5ca6b54e589421e": "icon_waypoint_bomb",
+                        "#hash_5ee809f61d319039": "ImageProperty"
+                    },
+                    "#hash_81e8e81612bae9bf": "Types_ImageProperty"
+                },
+                {
+                    "#hash_cf0d4d8cc5ac99a4": {
+                        "#hash_8e9ef05d6e84968c": "iconBacking",
+                        "#hash_5ca6b54e589421e": "icon_waypoint_backing_friendly",
+                        "#hash_5ee809f61d319039": "ImageProperty"
+                    },
+                    "#hash_81e8e81612bae9bf": "Types_ImageProperty"
+                },
+                {
+                    "#hash_cf0d4d8cc5ac99a4": {
+                        "#hash_8e9ef05d6e84968c": "timeLimitedDisplay",
+                        "#hash_5ee809f61d319039": "BoolProperty"
+                    },
+                    "#hash_81e8e81612bae9bf": "Types_BoolProperty"
+                },
+                {
+                    "#hash_cf0d4d8cc5ac99a4": {
+                        "#hash_8e9ef05d6e84968c": "secondsOnScreen",
+                        "#hash_5ee809f61d319039": "IntProperty"
+                    },
+                    "#hash_81e8e81612bae9bf": "Types_IntProperty"
+                },
+                {
+                    "#hash_cf0d4d8cc5ac99a4": {
+                        "#hash_8e9ef05d6e84968c": "iconTintSwatchPath",
+                        "#hash_5ee809f61d319039": "RawStringProperty"
+                    },
+                    "#hash_81e8e81612bae9bf": "Types_RawStringProperty"
+                },
+                {
+                    "#hash_cf0d4d8cc5ac99a4": {
+                        "#hash_8e9ef05d6e84968c": "backingTintSwatchPath",
+                        "#hash_5ca6b54e589421e": "MatchIndicators.AllyDefault",
+                        "#hash_5ee809f61d319039": "RawStringProperty"
+                    },
+                    "#hash_81e8e81612bae9bf": "Types_RawStringProperty"
+                },
+                {
+                    "#hash_cf0d4d8cc5ac99a4": {
+                        "#hash_8e9ef05d6e84968c": "hasCounter",
+                        "#hash_5ca6b54e589421e": 1,
+                        "#hash_5ee809f61d319039": "BoolProperty"
+                    },
+                    "#hash_81e8e81612bae9bf": "Types_BoolProperty"
+                },
+                {
+                    "#hash_cf0d4d8cc5ac99a4": {
+                        "#hash_8e9ef05d6e84968c": "hasProgressBar",
+                        "#hash_5ee809f61d319039": "BoolProperty"
+                    },
+                    "#hash_81e8e81612bae9bf": "Types_BoolProperty"
+                },
+                {
+                    "#hash_cf0d4d8cc5ac99a4": {
+                        "#hash_8e9ef05d6e84968c": "hasTimer",
+                        "#hash_5ca6b54e589421e": 1,
+                        "#hash_5ee809f61d319039": "BoolProperty"
+                    },
+                    "#hash_81e8e81612bae9bf": "Types_BoolProperty"
+                },
+                {
+                    "#hash_cf0d4d8cc5ac99a4": {
+                        "#hash_8e9ef05d6e84968c": "isAllyTeam",
+                        "#hash_5ee809f61d319039": "BoolProperty"
+                    },
+                    "#hash_81e8e81612bae9bf": "Types_BoolProperty"
+                },
+                {
+                    "#hash_cf0d4d8cc5ac99a4": {
+                        "#hash_8e9ef05d6e84968c": "isEnemyTeam",
+                        "#hash_5ee809f61d319039": "BoolProperty"
+                    },
+                    "#hash_81e8e81612bae9bf": "Types_BoolProperty"
+                },
+                {
+                    "#hash_cf0d4d8cc5ac99a4": {
+                        "#hash_8e9ef05d6e84968c": "showCompletedMessage",
+                        "#hash_5ca6b54e589421e": 1,
+                        "#hash_5ee809f61d319039": "BoolProperty"
+                    },
+                    "#hash_81e8e81612bae9bf": "Types_BoolProperty"
+                },
+                {
+                    "#hash_cf0d4d8cc5ac99a4": {
+                        "#hash_8e9ef05d6e84968c": "iconBackingSuccess",
+                        "#hash_5ca6b54e589421e": "icon_waypoint_backing_friendly",
+                        "#hash_5ee809f61d319039": "ImageProperty"
+                    },
+                    "#hash_81e8e81612bae9bf": "Types_ImageProperty"
+                },
+                {
+                    "#hash_cf0d4d8cc5ac99a4": {
+                        "#hash_8e9ef05d6e84968c": "iconBackingFailure",
+                        "#hash_5ca6b54e589421e": "icon_waypoint_backing_enemy",
+                        "#hash_5ee809f61d319039": "ImageProperty"
+                    },
+                    "#hash_81e8e81612bae9bf": "Types_ImageProperty"
+                },
+                {
+                    "#hash_cf0d4d8cc5ac99a4": {
+                        "#hash_8e9ef05d6e84968c": "successTintSwatchPath",
+                        "#hash_5ca6b54e589421e": "MatchIndicators.AllyDark",
+                        "#hash_5ee809f61d319039": "RawStringProperty"
+                    },
+                    "#hash_81e8e81612bae9bf": "Types_RawStringProperty"
+                },
+                {
+                    "#hash_cf0d4d8cc5ac99a4": {
+                        "#hash_8e9ef05d6e84968c": "failureTintSwatchPath",
+                        "#hash_5ca6b54e589421e": "MatchIndicators.EnemyDark",
+                        "#hash_5ee809f61d319039": "RawStringProperty"
+                    },
+                    "#hash_81e8e81612bae9bf": "Types_RawStringProperty"
+                }
+            ],
+            "#hash_332e305ca1ca24ca": "WAR_BOMB_DEFEND"
+        },
+        {
+            "#hash_8cab666c8e014658": [
+                {
+                    "#hash_cf0d4d8cc5ac99a4": {
+                        "#hash_8e9ef05d6e84968c": "title",
+                        "#hash_5ca6b54e589421e": "&JUP_MP/WM_OBJ_HOSTAGE_RESCUE_TITLE",
+                        "#hash_5ee809f61d319039": "StringProperty"
+                    },
+                    "#hash_81e8e81612bae9bf": "Types_StringProperty"
+                },
+                {
+                    "#hash_cf0d4d8cc5ac99a4": {
+                        "#hash_8e9ef05d6e84968c": "description",
+                        "#hash_5ca6b54e589421e": "&JUP_MP/WM_OBJ_HOSTAGE_RESCUE_DESC",
+                        "#hash_5ee809f61d319039": "StringProperty"
+                    },
+                    "#hash_81e8e81612bae9bf": "Types_StringProperty"
+                },
+                {
+                    "#hash_cf0d4d8cc5ac99a4": {
+                        "#hash_8e9ef05d6e84968c": "animSequence",
+                        "#hash_5ee809f61d319039": "RawStringProperty"
+                    },
+                    "#hash_81e8e81612bae9bf": "Types_RawStringProperty"
+                },
+                {
+                    "#hash_cf0d4d8cc5ac99a4": {
+                        "#hash_8e9ef05d6e84968c": "icon",
+                        "#hash_5ca6b54e589421e": "icon_waypoint_hostage",
+                        "#hash_5ee809f61d319039": "ImageProperty"
+                    },
+                    "#hash_81e8e81612bae9bf": "Types_ImageProperty"
+                },
+                {
+                    "#hash_cf0d4d8cc5ac99a4": {
+                        "#hash_8e9ef05d6e84968c": "iconBacking",
+                        "#hash_5ca6b54e589421e": "icon_waypoint_backing_enemy",
+                        "#hash_5ee809f61d319039": "ImageProperty"
+                    },
+                    "#hash_81e8e81612bae9bf": "Types_ImageProperty"
+                },
+                {
+                    "#hash_cf0d4d8cc5ac99a4": {
+                        "#hash_8e9ef05d6e84968c": "timeLimitedDisplay",
+                        "#hash_5ee809f61d319039": "BoolProperty"
+                    },
+                    "#hash_81e8e81612bae9bf": "Types_BoolProperty"
+                },
+                {
+                    "#hash_cf0d4d8cc5ac99a4": {
+                        "#hash_8e9ef05d6e84968c": "secondsOnScreen",
+                        "#hash_5ee809f61d319039": "IntProperty"
+                    },
+                    "#hash_81e8e81612bae9bf": "Types_IntProperty"
+                },
+                {
+                    "#hash_cf0d4d8cc5ac99a4": {
+                        "#hash_8e9ef05d6e84968c": "iconTintSwatchPath",
+                        "#hash_5ee809f61d319039": "RawStringProperty"
+                    },
+                    "#hash_81e8e81612bae9bf": "Types_RawStringProperty"
+                },
+                {
+                    "#hash_cf0d4d8cc5ac99a4": {
+                        "#hash_8e9ef05d6e84968c": "backingTintSwatchPath",
+                        "#hash_5ca6b54e589421e": "MatchIndicators.EnemyDefault",
+                        "#hash_5ee809f61d319039": "RawStringProperty"
+                    },
+                    "#hash_81e8e81612bae9bf": "Types_RawStringProperty"
+                },
+                {
+                    "#hash_cf0d4d8cc5ac99a4": {
+                        "#hash_8e9ef05d6e84968c": "hasCounter",
+                        "#hash_5ee809f61d319039": "BoolProperty"
+                    },
+                    "#hash_81e8e81612bae9bf": "Types_BoolProperty"
+                },
+                {
+                    "#hash_cf0d4d8cc5ac99a4": {
+                        "#hash_8e9ef05d6e84968c": "hasProgressBar",
+                        "#hash_5ee809f61d319039": "BoolProperty"
+                    },
+                    "#hash_81e8e81612bae9bf": "Types_BoolProperty"
+                },
+                {
+                    "#hash_cf0d4d8cc5ac99a4": {
+                        "#hash_8e9ef05d6e84968c": "hasTimer",
+                        "#hash_5ca6b54e589421e": 1,
+                        "#hash_5ee809f61d319039": "BoolProperty"
+                    },
+                    "#hash_81e8e81612bae9bf": "Types_BoolProperty"
+                },
+                {
+                    "#hash_cf0d4d8cc5ac99a4": {
+                        "#hash_8e9ef05d6e84968c": "isAllyTeam",
+                        "#hash_5ee809f61d319039": "BoolProperty"
+                    },
+                    "#hash_81e8e81612bae9bf": "Types_BoolProperty"
+                },
+                {
+                    "#hash_cf0d4d8cc5ac99a4": {
+                        "#hash_8e9ef05d6e84968c": "isEnemyTeam",
+                        "#hash_5ee809f61d319039": "BoolProperty"
+                    },
+                    "#hash_81e8e81612bae9bf": "Types_BoolProperty"
+                },
+                {
+                    "#hash_cf0d4d8cc5ac99a4": {
+                        "#hash_8e9ef05d6e84968c": "showCompletedMessage",
+                        "#hash_5ca6b54e589421e": 1,
+                        "#hash_5ee809f61d319039": "BoolProperty"
+                    },
+                    "#hash_81e8e81612bae9bf": "Types_BoolProperty"
+                },
+                {
+                    "#hash_cf0d4d8cc5ac99a4": {
+                        "#hash_8e9ef05d6e84968c": "iconBackingSuccess",
+                        "#hash_5ca6b54e589421e": "icon_waypoint_backing_friendly",
+                        "#hash_5ee809f61d319039": "ImageProperty"
+                    },
+                    "#hash_81e8e81612bae9bf": "Types_ImageProperty"
+                },
+                {
+                    "#hash_cf0d4d8cc5ac99a4": {
+                        "#hash_8e9ef05d6e84968c": "iconBackingFailure",
+                        "#hash_5ca6b54e589421e": "icon_waypoint_backing_enemy",
+                        "#hash_5ee809f61d319039": "ImageProperty"
+                    },
+                    "#hash_81e8e81612bae9bf": "Types_ImageProperty"
+                },
+                {
+                    "#hash_cf0d4d8cc5ac99a4": {
+                        "#hash_8e9ef05d6e84968c": "successTintSwatchPath",
+                        "#hash_5ca6b54e589421e": "MatchIndicators.AllyDark",
+                        "#hash_5ee809f61d319039": "RawStringProperty"
+                    },
+                    "#hash_81e8e81612bae9bf": "Types_RawStringProperty"
+                },
+                {
+                    "#hash_cf0d4d8cc5ac99a4": {
+                        "#hash_8e9ef05d6e84968c": "failureTintSwatchPath",
+                        "#hash_5ca6b54e589421e": "MatchIndicators.EnemyDark",
+                        "#hash_5ee809f61d319039": "RawStringProperty"
+                    },
+                    "#hash_81e8e81612bae9bf": "Types_RawStringProperty"
+                }
+            ],
+            "#hash_332e305ca1ca24ca": "WAR_HOSTAGE_RESCUE"
+        },
+        {
+            "#hash_8cab666c8e014658": [
+                {
+                    "#hash_cf0d4d8cc5ac99a4": {
+                        "#hash_8e9ef05d6e84968c": "title",
+                        "#hash_5ca6b54e589421e": "&JUP_MP/WM_OBJ_HOSTAGE_DEFEND_TITLE",
+                        "#hash_5ee809f61d319039": "StringProperty"
+                    },
+                    "#hash_81e8e81612bae9bf": "Types_StringProperty"
+                },
+                {
+                    "#hash_cf0d4d8cc5ac99a4": {
+                        "#hash_8e9ef05d6e84968c": "description",
+                        "#hash_5ca6b54e589421e": "&JUP_MP/WM_OBJ_HOSTAGE_DEFEND_DESC",
+                        "#hash_5ee809f61d319039": "StringProperty"
+                    },
+                    "#hash_81e8e81612bae9bf": "Types_StringProperty"
+                },
+                {
+                    "#hash_cf0d4d8cc5ac99a4": {
+                        "#hash_8e9ef05d6e84968c": "animSequence",
+                        "#hash_5ee809f61d319039": "RawStringProperty"
+                    },
+                    "#hash_81e8e81612bae9bf": "Types_RawStringProperty"
+                },
+                {
+                    "#hash_cf0d4d8cc5ac99a4": {
+                        "#hash_8e9ef05d6e84968c": "icon",
+                        "#hash_5ca6b54e589421e": "icon_waypoint_hostage_captive",
+                        "#hash_5ee809f61d319039": "ImageProperty"
+                    },
+                    "#hash_81e8e81612bae9bf": "Types_ImageProperty"
+                },
+                {
+                    "#hash_cf0d4d8cc5ac99a4": {
+                        "#hash_8e9ef05d6e84968c": "iconBacking",
+                        "#hash_5ca6b54e589421e": "icon_waypoint_backing_friendly",
+                        "#hash_5ee809f61d319039": "ImageProperty"
+                    },
+                    "#hash_81e8e81612bae9bf": "Types_ImageProperty"
+                },
+                {
+                    "#hash_cf0d4d8cc5ac99a4": {
+                        "#hash_8e9ef05d6e84968c": "timeLimitedDisplay",
+                        "#hash_5ee809f61d319039": "BoolProperty"
+                    },
+                    "#hash_81e8e81612bae9bf": "Types_BoolProperty"
+                },
+                {
+                    "#hash_cf0d4d8cc5ac99a4": {
+                        "#hash_8e9ef05d6e84968c": "secondsOnScreen",
+                        "#hash_5ee809f61d319039": "IntProperty"
+                    },
+                    "#hash_81e8e81612bae9bf": "Types_IntProperty"
+                },
+                {
+                    "#hash_cf0d4d8cc5ac99a4": {
+                        "#hash_8e9ef05d6e84968c": "iconTintSwatchPath",
+                        "#hash_5ee809f61d319039": "RawStringProperty"
+                    },
+                    "#hash_81e8e81612bae9bf": "Types_RawStringProperty"
+                },
+                {
+                    "#hash_cf0d4d8cc5ac99a4": {
+                        "#hash_8e9ef05d6e84968c": "backingTintSwatchPath",
+                        "#hash_5ca6b54e589421e": "MatchIndicators.AllyDefault",
+                        "#hash_5ee809f61d319039": "RawStringProperty"
+                    },
+                    "#hash_81e8e81612bae9bf": "Types_RawStringProperty"
+                },
+                {
+                    "#hash_cf0d4d8cc5ac99a4": {
+                        "#hash_8e9ef05d6e84968c": "hasCounter",
+                        "#hash_5ee809f61d319039": "BoolProperty"
+                    },
+                    "#hash_81e8e81612bae9bf": "Types_BoolProperty"
+                },
+                {
+                    "#hash_cf0d4d8cc5ac99a4": {
+                        "#hash_8e9ef05d6e84968c": "hasProgressBar",
+                        "#hash_5ee809f61d319039": "BoolProperty"
+                    },
+                    "#hash_81e8e81612bae9bf": "Types_BoolProperty"
+                },
+                {
+                    "#hash_cf0d4d8cc5ac99a4": {
+                        "#hash_8e9ef05d6e84968c": "hasTimer",
+                        "#hash_5ca6b54e589421e": 1,
+                        "#hash_5ee809f61d319039": "BoolProperty"
+                    },
+                    "#hash_81e8e81612bae9bf": "Types_BoolProperty"
+                },
+                {
+                    "#hash_cf0d4d8cc5ac99a4": {
+                        "#hash_8e9ef05d6e84968c": "isAllyTeam",
+                        "#hash_5ee809f61d319039": "BoolProperty"
+                    },
+                    "#hash_81e8e81612bae9bf": "Types_BoolProperty"
+                },
+                {
+                    "#hash_cf0d4d8cc5ac99a4": {
+                        "#hash_8e9ef05d6e84968c": "isEnemyTeam",
+                        "#hash_5ee809f61d319039": "BoolProperty"
+                    },
+                    "#hash_81e8e81612bae9bf": "Types_BoolProperty"
+                },
+                {
+                    "#hash_cf0d4d8cc5ac99a4": {
+                        "#hash_8e9ef05d6e84968c": "showCompletedMessage",
+                        "#hash_5ca6b54e589421e": 1,
+                        "#hash_5ee809f61d319039": "BoolProperty"
+                    },
+                    "#hash_81e8e81612bae9bf": "Types_BoolProperty"
+                },
+                {
+                    "#hash_cf0d4d8cc5ac99a4": {
+                        "#hash_8e9ef05d6e84968c": "iconBackingSuccess",
+                        "#hash_5ca6b54e589421e": "icon_waypoint_backing_friendly",
+                        "#hash_5ee809f61d319039": "ImageProperty"
+                    },
+                    "#hash_81e8e81612bae9bf": "Types_ImageProperty"
+                },
+                {
+                    "#hash_cf0d4d8cc5ac99a4": {
+                        "#hash_8e9ef05d6e84968c": "iconBackingFailure",
+                        "#hash_5ca6b54e589421e": "icon_waypoint_backing_enemy",
+                        "#hash_5ee809f61d319039": "ImageProperty"
+                    },
+                    "#hash_81e8e81612bae9bf": "Types_ImageProperty"
+                },
+                {
+                    "#hash_cf0d4d8cc5ac99a4": {
+                        "#hash_8e9ef05d6e84968c": "successTintSwatchPath",
+                        "#hash_5ca6b54e589421e": "MatchIndicators.AllyDark",
+                        "#hash_5ee809f61d319039": "RawStringProperty"
+                    },
+                    "#hash_81e8e81612bae9bf": "Types_RawStringProperty"
+                },
+                {
+                    "#hash_cf0d4d8cc5ac99a4": {
+                        "#hash_8e9ef05d6e84968c": "failureTintSwatchPath",
+                        "#hash_5ca6b54e589421e": "MatchIndicators.EnemyDark",
+                        "#hash_5ee809f61d319039": "RawStringProperty"
+                    },
+                    "#hash_81e8e81612bae9bf": "Types_RawStringProperty"
+                }
+            ],
+            "#hash_332e305ca1ca24ca": "WAR_HOSTAGE_DEFEND"
+        },
+        {
+            "#hash_8cab666c8e014658": [
+                {
+                    "#hash_cf0d4d8cc5ac99a4": {
+                        "#hash_8e9ef05d6e84968c": "title",
+                        "#hash_5ca6b54e589421e": "&JUP_MP/WM_OBJ_DESTROY_PLANT_ATTACKERS_TITLE",
+                        "#hash_5ee809f61d319039": "StringProperty"
+                    },
+                    "#hash_81e8e81612bae9bf": "Types_StringProperty"
+                },
+                {
+                    "#hash_cf0d4d8cc5ac99a4": {
+                        "#hash_8e9ef05d6e84968c": "description",
+                        "#hash_5ca6b54e589421e": "&JUP_MP/WM_OBJ_DESTROY_PLANT_ATTACKERS_DESC",
+                        "#hash_5ee809f61d319039": "StringProperty"
+                    },
+                    "#hash_81e8e81612bae9bf": "Types_StringProperty"
+                },
+                {
+                    "#hash_cf0d4d8cc5ac99a4": {
+                        "#hash_8e9ef05d6e84968c": "animSequence",
+                        "#hash_5ee809f61d319039": "RawStringProperty"
+                    },
+                    "#hash_81e8e81612bae9bf": "Types_RawStringProperty"
+                },
+                {
+                    "#hash_cf0d4d8cc5ac99a4": {
+                        "#hash_8e9ef05d6e84968c": "icon",
+                        "#hash_5ca6b54e589421e": "hud_icon_vehicle_samsite",
+                        "#hash_5ee809f61d319039": "ImageProperty"
+                    },
+                    "#hash_81e8e81612bae9bf": "Types_ImageProperty"
+                },
+                {
+                    "#hash_cf0d4d8cc5ac99a4": {
+                        "#hash_8e9ef05d6e84968c": "iconBacking",
+                        "#hash_5ca6b54e589421e": "icon_waypoint_backing_enemy",
+                        "#hash_5ee809f61d319039": "ImageProperty"
+                    },
+                    "#hash_81e8e81612bae9bf": "Types_ImageProperty"
+                },
+                {
+                    "#hash_cf0d4d8cc5ac99a4": {
+                        "#hash_8e9ef05d6e84968c": "timeLimitedDisplay",
+                        "#hash_5ee809f61d319039": "BoolProperty"
+                    },
+                    "#hash_81e8e81612bae9bf": "Types_BoolProperty"
+                },
+                {
+                    "#hash_cf0d4d8cc5ac99a4": {
+                        "#hash_8e9ef05d6e84968c": "secondsOnScreen",
+                        "#hash_5ee809f61d319039": "IntProperty"
+                    },
+                    "#hash_81e8e81612bae9bf": "Types_IntProperty"
+                },
+                {
+                    "#hash_cf0d4d8cc5ac99a4": {
+                        "#hash_8e9ef05d6e84968c": "iconTintSwatchPath",
+                        "#hash_5ee809f61d319039": "RawStringProperty"
+                    },
+                    "#hash_81e8e81612bae9bf": "Types_RawStringProperty"
+                },
+                {
+                    "#hash_cf0d4d8cc5ac99a4": {
+                        "#hash_8e9ef05d6e84968c": "backingTintSwatchPath",
+                        "#hash_5ca6b54e589421e": "MatchIndicators.EnemyDefault",
+                        "#hash_5ee809f61d319039": "RawStringProperty"
+                    },
+                    "#hash_81e8e81612bae9bf": "Types_RawStringProperty"
+                },
+                {
+                    "#hash_cf0d4d8cc5ac99a4": {
+                        "#hash_8e9ef05d6e84968c": "hasCounter",
+                        "#hash_5ee809f61d319039": "BoolProperty"
+                    },
+                    "#hash_81e8e81612bae9bf": "Types_BoolProperty"
+                },
+                {
+                    "#hash_cf0d4d8cc5ac99a4": {
+                        "#hash_8e9ef05d6e84968c": "hasProgressBar",
+                        "#hash_5ee809f61d319039": "BoolProperty"
+                    },
+                    "#hash_81e8e81612bae9bf": "Types_BoolProperty"
+                },
+                {
+                    "#hash_cf0d4d8cc5ac99a4": {
+                        "#hash_8e9ef05d6e84968c": "hasTimer",
+                        "#hash_5ca6b54e589421e": 1,
+                        "#hash_5ee809f61d319039": "BoolProperty"
+                    },
+                    "#hash_81e8e81612bae9bf": "Types_BoolProperty"
+                },
+                {
+                    "#hash_cf0d4d8cc5ac99a4": {
+                        "#hash_8e9ef05d6e84968c": "isAllyTeam",
+                        "#hash_5ee809f61d319039": "BoolProperty"
+                    },
+                    "#hash_81e8e81612bae9bf": "Types_BoolProperty"
+                },
+                {
+                    "#hash_cf0d4d8cc5ac99a4": {
+                        "#hash_8e9ef05d6e84968c": "isEnemyTeam",
+                        "#hash_5ee809f61d319039": "BoolProperty"
+                    },
+                    "#hash_81e8e81612bae9bf": "Types_BoolProperty"
+                },
+                {
+                    "#hash_cf0d4d8cc5ac99a4": {
+                        "#hash_8e9ef05d6e84968c": "showCompletedMessage",
+                        "#hash_5ca6b54e589421e": 1,
+                        "#hash_5ee809f61d319039": "BoolProperty"
+                    },
+                    "#hash_81e8e81612bae9bf": "Types_BoolProperty"
+                },
+                {
+                    "#hash_cf0d4d8cc5ac99a4": {
+                        "#hash_8e9ef05d6e84968c": "iconBackingSuccess",
+                        "#hash_5ca6b54e589421e": "icon_waypoint_backing_friendly",
+                        "#hash_5ee809f61d319039": "ImageProperty"
+                    },
+                    "#hash_81e8e81612bae9bf": "Types_ImageProperty"
+                },
+                {
+                    "#hash_cf0d4d8cc5ac99a4": {
+                        "#hash_8e9ef05d6e84968c": "iconBackingFailure",
+                        "#hash_5ca6b54e589421e": "icon_waypoint_backing_enemy",
+                        "#hash_5ee809f61d319039": "ImageProperty"
+                    },
+                    "#hash_81e8e81612bae9bf": "Types_ImageProperty"
+                },
+                {
+                    "#hash_cf0d4d8cc5ac99a4": {
+                        "#hash_8e9ef05d6e84968c": "successTintSwatchPath",
+                        "#hash_5ca6b54e589421e": "MatchIndicators.AllyDark",
+                        "#hash_5ee809f61d319039": "RawStringProperty"
+                    },
+                    "#hash_81e8e81612bae9bf": "Types_RawStringProperty"
+                },
+                {
+                    "#hash_cf0d4d8cc5ac99a4": {
+                        "#hash_8e9ef05d6e84968c": "failureTintSwatchPath",
+                        "#hash_5ca6b54e589421e": "MatchIndicators.EnemyDark",
+                        "#hash_5ee809f61d319039": "RawStringProperty"
+                    },
+                    "#hash_81e8e81612bae9bf": "Types_RawStringProperty"
+                }
+            ],
+            "#hash_332e305ca1ca24ca": "WAR_DESTROY_PLANT_ATTACKERS"
+        },
+        {
+            "#hash_8cab666c8e014658": [
+                {
+                    "#hash_cf0d4d8cc5ac99a4": {
+                        "#hash_8e9ef05d6e84968c": "title",
+                        "#hash_5ca6b54e589421e": "&JUP_MP/WM_OBJ_DESTROY_PLANT_DEFENDERS_TITLE",
+                        "#hash_5ee809f61d319039": "StringProperty"
+                    },
+                    "#hash_81e8e81612bae9bf": "Types_StringProperty"
+                },
+                {
+                    "#hash_cf0d4d8cc5ac99a4": {
+                        "#hash_8e9ef05d6e84968c": "description",
+                        "#hash_5ca6b54e589421e": "&JUP_MP/WM_OBJ_DESTROY_PLANT_DEFENDERS_DESC",
+                        "#hash_5ee809f61d319039": "StringProperty"
+                    },
+                    "#hash_81e8e81612bae9bf": "Types_StringProperty"
+                },
+                {
+                    "#hash_cf0d4d8cc5ac99a4": {
+                        "#hash_8e9ef05d6e84968c": "animSequence",
+                        "#hash_5ee809f61d319039": "RawStringProperty"
+                    },
+                    "#hash_81e8e81612bae9bf": "Types_RawStringProperty"
+                },
+                {
+                    "#hash_cf0d4d8cc5ac99a4": {
+                        "#hash_8e9ef05d6e84968c": "icon",
+                        "#hash_5ca6b54e589421e": "hud_icon_vehicle_samsite",
+                        "#hash_5ee809f61d319039": "ImageProperty"
+                    },
+                    "#hash_81e8e81612bae9bf": "Types_ImageProperty"
+                },
+                {
+                    "#hash_cf0d4d8cc5ac99a4": {
+                        "#hash_8e9ef05d6e84968c": "iconBacking",
+                        "#hash_5ca6b54e589421e": "icon_waypoint_backing_friendly",
+                        "#hash_5ee809f61d319039": "ImageProperty"
+                    },
+                    "#hash_81e8e81612bae9bf": "Types_ImageProperty"
+                },
+                {
+                    "#hash_cf0d4d8cc5ac99a4": {
+                        "#hash_8e9ef05d6e84968c": "timeLimitedDisplay",
+                        "#hash_5ee809f61d319039": "BoolProperty"
+                    },
+                    "#hash_81e8e81612bae9bf": "Types_BoolProperty"
+                },
+                {
+                    "#hash_cf0d4d8cc5ac99a4": {
+                        "#hash_8e9ef05d6e84968c": "secondsOnScreen",
+                        "#hash_5ee809f61d319039": "IntProperty"
+                    },
+                    "#hash_81e8e81612bae9bf": "Types_IntProperty"
+                },
+                {
+                    "#hash_cf0d4d8cc5ac99a4": {
+                        "#hash_8e9ef05d6e84968c": "iconTintSwatchPath",
+                        "#hash_5ee809f61d319039": "RawStringProperty"
+                    },
+                    "#hash_81e8e81612bae9bf": "Types_RawStringProperty"
+                },
+                {
+                    "#hash_cf0d4d8cc5ac99a4": {
+                        "#hash_8e9ef05d6e84968c": "backingTintSwatchPath",
+                        "#hash_5ca6b54e589421e": "MatchIndicators.AllyDefault",
+                        "#hash_5ee809f61d319039": "RawStringProperty"
+                    },
+                    "#hash_81e8e81612bae9bf": "Types_RawStringProperty"
+                },
+                {
+                    "#hash_cf0d4d8cc5ac99a4": {
+                        "#hash_8e9ef05d6e84968c": "hasCounter",
+                        "#hash_5ca6b54e589421e": 1,
+                        "#hash_5ee809f61d319039": "BoolProperty"
+                    },
+                    "#hash_81e8e81612bae9bf": "Types_BoolProperty"
+                },
+                {
+                    "#hash_cf0d4d8cc5ac99a4": {
+                        "#hash_8e9ef05d6e84968c": "hasProgressBar",
+                        "#hash_5ee809f61d319039": "BoolProperty"
+                    },
+                    "#hash_81e8e81612bae9bf": "Types_BoolProperty"
+                },
+                {
+                    "#hash_cf0d4d8cc5ac99a4": {
+                        "#hash_8e9ef05d6e84968c": "hasTimer",
+                        "#hash_5ca6b54e589421e": 1,
+                        "#hash_5ee809f61d319039": "BoolProperty"
+                    },
+                    "#hash_81e8e81612bae9bf": "Types_BoolProperty"
+                },
+                {
+                    "#hash_cf0d4d8cc5ac99a4": {
+                        "#hash_8e9ef05d6e84968c": "isAllyTeam",
+                        "#hash_5ee809f61d319039": "BoolProperty"
+                    },
+                    "#hash_81e8e81612bae9bf": "Types_BoolProperty"
+                },
+                {
+                    "#hash_cf0d4d8cc5ac99a4": {
+                        "#hash_8e9ef05d6e84968c": "isEnemyTeam",
+                        "#hash_5ee809f61d319039": "BoolProperty"
+                    },
+                    "#hash_81e8e81612bae9bf": "Types_BoolProperty"
+                },
+                {
+                    "#hash_cf0d4d8cc5ac99a4": {
+                        "#hash_8e9ef05d6e84968c": "showCompletedMessage",
+                        "#hash_5ca6b54e589421e": 1,
+                        "#hash_5ee809f61d319039": "BoolProperty"
+                    },
+                    "#hash_81e8e81612bae9bf": "Types_BoolProperty"
+                },
+                {
+                    "#hash_cf0d4d8cc5ac99a4": {
+                        "#hash_8e9ef05d6e84968c": "iconBackingSuccess",
+                        "#hash_5ca6b54e589421e": "icon_waypoint_backing_friendly",
+                        "#hash_5ee809f61d319039": "ImageProperty"
+                    },
+                    "#hash_81e8e81612bae9bf": "Types_ImageProperty"
+                },
+                {
+                    "#hash_cf0d4d8cc5ac99a4": {
+                        "#hash_8e9ef05d6e84968c": "iconBackingFailure",
+                        "#hash_5ca6b54e589421e": "icon_waypoint_backing_enemy",
+                        "#hash_5ee809f61d319039": "ImageProperty"
+                    },
+                    "#hash_81e8e81612bae9bf": "Types_ImageProperty"
+                },
+                {
+                    "#hash_cf0d4d8cc5ac99a4": {
+                        "#hash_8e9ef05d6e84968c": "successTintSwatchPath",
+                        "#hash_5ca6b54e589421e": "MatchIndicators.AllyDark",
+                        "#hash_5ee809f61d319039": "RawStringProperty"
+                    },
+                    "#hash_81e8e81612bae9bf": "Types_RawStringProperty"
+                },
+                {
+                    "#hash_cf0d4d8cc5ac99a4": {
+                        "#hash_8e9ef05d6e84968c": "failureTintSwatchPath",
+                        "#hash_5ca6b54e589421e": "MatchIndicators.EnemyDark",
+                        "#hash_5ee809f61d319039": "RawStringProperty"
+                    },
+                    "#hash_81e8e81612bae9bf": "Types_RawStringProperty"
+                }
+            ],
+            "#hash_332e305ca1ca24ca": "WAR_DESTROY_PLANT_DEFENDERS"
+        },
+        {
+            "#hash_8cab666c8e014658": [
+                {
+                    "#hash_cf0d4d8cc5ac99a4": {
+                        "#hash_8e9ef05d6e84968c": "title",
+                        "#hash_5ca6b54e589421e": "&JUP_MP/WM_OBJ_ESCORT_TANK_ATTACKERS_TITLE",
+                        "#hash_5ee809f61d319039": "StringProperty"
+                    },
+                    "#hash_81e8e81612bae9bf": "Types_StringProperty"
+                },
+                {
+                    "#hash_cf0d4d8cc5ac99a4": {
+                        "#hash_8e9ef05d6e84968c": "description",
+                        "#hash_5ca6b54e589421e": "&JUP_MP/WM_OBJ_ESCORT_TANK_ATTACKERS_DESC",
+                        "#hash_5ee809f61d319039": "StringProperty"
+                    },
+                    "#hash_81e8e81612bae9bf": "Types_StringProperty"
+                },
+                {
+                    "#hash_cf0d4d8cc5ac99a4": {
+                        "#hash_8e9ef05d6e84968c": "animSequence",
+                        "#hash_5ee809f61d319039": "RawStringProperty"
+                    },
+                    "#hash_81e8e81612bae9bf": "Types_RawStringProperty"
+                },
+                {
+                    "#hash_cf0d4d8cc5ac99a4": {
+                        "#hash_8e9ef05d6e84968c": "icon",
+                        "#hash_5ca6b54e589421e": "esports_codcaster_waypoint_letter_a",
+                        "#hash_5ee809f61d319039": "ImageProperty"
+                    },
+                    "#hash_81e8e81612bae9bf": "Types_ImageProperty"
+                },
+                {
+                    "#hash_cf0d4d8cc5ac99a4": {
+                        "#hash_8e9ef05d6e84968c": "iconBacking",
+                        "#hash_5ca6b54e589421e": "icon_waypoint_backing_enemy",
+                        "#hash_5ee809f61d319039": "ImageProperty"
+                    },
+                    "#hash_81e8e81612bae9bf": "Types_ImageProperty"
+                },
+                {
+                    "#hash_cf0d4d8cc5ac99a4": {
+                        "#hash_8e9ef05d6e84968c": "timeLimitedDisplay",
+                        "#hash_5ee809f61d319039": "BoolProperty"
+                    },
+                    "#hash_81e8e81612bae9bf": "Types_BoolProperty"
+                },
+                {
+                    "#hash_cf0d4d8cc5ac99a4": {
+                        "#hash_8e9ef05d6e84968c": "secondsOnScreen",
+                        "#hash_5ee809f61d319039": "IntProperty"
+                    },
+                    "#hash_81e8e81612bae9bf": "Types_IntProperty"
+                },
+                {
+                    "#hash_cf0d4d8cc5ac99a4": {
+                        "#hash_8e9ef05d6e84968c": "iconTintSwatchPath",
+                        "#hash_5ee809f61d319039": "RawStringProperty"
+                    },
+                    "#hash_81e8e81612bae9bf": "Types_RawStringProperty"
+                },
+                {
+                    "#hash_cf0d4d8cc5ac99a4": {
+                        "#hash_8e9ef05d6e84968c": "backingTintSwatchPath",
+                        "#hash_5ca6b54e589421e": "MatchIndicators.EnemyDefault",
+                        "#hash_5ee809f61d319039": "RawStringProperty"
+                    },
+                    "#hash_81e8e81612bae9bf": "Types_RawStringProperty"
+                },
+                {
+                    "#hash_cf0d4d8cc5ac99a4": {
+                        "#hash_8e9ef05d6e84968c": "hasCounter",
+                        "#hash_5ee809f61d319039": "BoolProperty"
+                    },
+                    "#hash_81e8e81612bae9bf": "Types_BoolProperty"
+                },
+                {
+                    "#hash_cf0d4d8cc5ac99a4": {
+                        "#hash_8e9ef05d6e84968c": "hasProgressBar",
+                        "#hash_5ee809f61d319039": "BoolProperty"
+                    },
+                    "#hash_81e8e81612bae9bf": "Types_BoolProperty"
+                },
+                {
+                    "#hash_cf0d4d8cc5ac99a4": {
+                        "#hash_8e9ef05d6e84968c": "hasTimer",
+                        "#hash_5ca6b54e589421e": 1,
+                        "#hash_5ee809f61d319039": "BoolProperty"
+                    },
+                    "#hash_81e8e81612bae9bf": "Types_BoolProperty"
+                },
+                {
+                    "#hash_cf0d4d8cc5ac99a4": {
+                        "#hash_8e9ef05d6e84968c": "isAllyTeam",
+                        "#hash_5ee809f61d319039": "BoolProperty"
+                    },
+                    "#hash_81e8e81612bae9bf": "Types_BoolProperty"
+                },
+                {
+                    "#hash_cf0d4d8cc5ac99a4": {
+                        "#hash_8e9ef05d6e84968c": "isEnemyTeam",
+                        "#hash_5ee809f61d319039": "BoolProperty"
+                    },
+                    "#hash_81e8e81612bae9bf": "Types_BoolProperty"
+                },
+                {
+                    "#hash_cf0d4d8cc5ac99a4": {
+                        "#hash_8e9ef05d6e84968c": "showCompletedMessage",
+                        "#hash_5ca6b54e589421e": 1,
+                        "#hash_5ee809f61d319039": "BoolProperty"
+                    },
+                    "#hash_81e8e81612bae9bf": "Types_BoolProperty"
+                },
+                {
+                    "#hash_cf0d4d8cc5ac99a4": {
+                        "#hash_8e9ef05d6e84968c": "iconBackingSuccess",
+                        "#hash_5ca6b54e589421e": "icon_waypoint_backing_friendly",
+                        "#hash_5ee809f61d319039": "ImageProperty"
+                    },
+                    "#hash_81e8e81612bae9bf": "Types_ImageProperty"
+                },
+                {
+                    "#hash_cf0d4d8cc5ac99a4": {
+                        "#hash_8e9ef05d6e84968c": "iconBackingFailure",
+                        "#hash_5ca6b54e589421e": "icon_waypoint_backing_enemy",
+                        "#hash_5ee809f61d319039": "ImageProperty"
+                    },
+                    "#hash_81e8e81612bae9bf": "Types_ImageProperty"
+                },
+                {
+                    "#hash_cf0d4d8cc5ac99a4": {
+                        "#hash_8e9ef05d6e84968c": "successTintSwatchPath",
+                        "#hash_5ca6b54e589421e": "MatchIndicators.AllyDark",
+                        "#hash_5ee809f61d319039": "RawStringProperty"
+                    },
+                    "#hash_81e8e81612bae9bf": "Types_RawStringProperty"
+                },
+                {
+                    "#hash_cf0d4d8cc5ac99a4": {
+                        "#hash_8e9ef05d6e84968c": "failureTintSwatchPath",
+                        "#hash_5ca6b54e589421e": "MatchIndicators.EnemyDark",
+                        "#hash_5ee809f61d319039": "RawStringProperty"
+                    },
+                    "#hash_81e8e81612bae9bf": "Types_RawStringProperty"
+                }
+            ],
+            "#hash_332e305ca1ca24ca": "WAR_TANK_ESCORT_ATTACKERS"
+        },
+        {
+            "#hash_8cab666c8e014658": [
+                {
+                    "#hash_cf0d4d8cc5ac99a4": {
+                        "#hash_8e9ef05d6e84968c": "title",
+                        "#hash_5ca6b54e589421e": "&JUP_MP/WM_OBJ_ESCORT_TANK_DEFENDERS_TITLE",
+                        "#hash_5ee809f61d319039": "StringProperty"
+                    },
+                    "#hash_81e8e81612bae9bf": "Types_StringProperty"
+                },
+                {
+                    "#hash_cf0d4d8cc5ac99a4": {
+                        "#hash_8e9ef05d6e84968c": "description",
+                        "#hash_5ca6b54e589421e": "&JUP_MP/WM_OBJ_ESCORT_TANK_DEFENDERS_DESC",
+                        "#hash_5ee809f61d319039": "StringProperty"
+                    },
+                    "#hash_81e8e81612bae9bf": "Types_StringProperty"
+                },
+                {
+                    "#hash_cf0d4d8cc5ac99a4": {
+                        "#hash_8e9ef05d6e84968c": "animSequence",
+                        "#hash_5ee809f61d319039": "RawStringProperty"
+                    },
+                    "#hash_81e8e81612bae9bf": "Types_RawStringProperty"
+                },
+                {
+                    "#hash_cf0d4d8cc5ac99a4": {
+                        "#hash_8e9ef05d6e84968c": "icon",
+                        "#hash_5ca6b54e589421e": "esports_codcaster_waypoint_letter_a",
+                        "#hash_5ee809f61d319039": "ImageProperty"
+                    },
+                    "#hash_81e8e81612bae9bf": "Types_ImageProperty"
+                },
+                {
+                    "#hash_cf0d4d8cc5ac99a4": {
+                        "#hash_8e9ef05d6e84968c": "iconBacking",
+                        "#hash_5ca6b54e589421e": "icon_waypoint_backing_friendly",
+                        "#hash_5ee809f61d319039": "ImageProperty"
+                    },
+                    "#hash_81e8e81612bae9bf": "Types_ImageProperty"
+                },
+                {
+                    "#hash_cf0d4d8cc5ac99a4": {
+                        "#hash_8e9ef05d6e84968c": "timeLimitedDisplay",
+                        "#hash_5ee809f61d319039": "BoolProperty"
+                    },
+                    "#hash_81e8e81612bae9bf": "Types_BoolProperty"
+                },
+                {
+                    "#hash_cf0d4d8cc5ac99a4": {
+                        "#hash_8e9ef05d6e84968c": "secondsOnScreen",
+                        "#hash_5ee809f61d319039": "IntProperty"
+                    },
+                    "#hash_81e8e81612bae9bf": "Types_IntProperty"
+                },
+                {
+                    "#hash_cf0d4d8cc5ac99a4": {
+                        "#hash_8e9ef05d6e84968c": "iconTintSwatchPath",
+                        "#hash_5ee809f61d319039": "RawStringProperty"
+                    },
+                    "#hash_81e8e81612bae9bf": "Types_RawStringProperty"
+                },
+                {
+                    "#hash_cf0d4d8cc5ac99a4": {
+                        "#hash_8e9ef05d6e84968c": "backingTintSwatchPath",
+                        "#hash_5ca6b54e589421e": "MatchIndicators.AllyDefault",
+                        "#hash_5ee809f61d319039": "RawStringProperty"
+                    },
+                    "#hash_81e8e81612bae9bf": "Types_RawStringProperty"
+                },
+                {
+                    "#hash_cf0d4d8cc5ac99a4": {
+                        "#hash_8e9ef05d6e84968c": "hasCounter",
+                        "#hash_5ee809f61d319039": "BoolProperty"
+                    },
+                    "#hash_81e8e81612bae9bf": "Types_BoolProperty"
+                },
+                {
+                    "#hash_cf0d4d8cc5ac99a4": {
+                        "#hash_8e9ef05d6e84968c": "hasProgressBar",
+                        "#hash_5ee809f61d319039": "BoolProperty"
+                    },
+                    "#hash_81e8e81612bae9bf": "Types_BoolProperty"
+                },
+                {
+                    "#hash_cf0d4d8cc5ac99a4": {
+                        "#hash_8e9ef05d6e84968c": "hasTimer",
+                        "#hash_5ca6b54e589421e": 1,
+                        "#hash_5ee809f61d319039": "BoolProperty"
+                    },
+                    "#hash_81e8e81612bae9bf": "Types_BoolProperty"
+                },
+                {
+                    "#hash_cf0d4d8cc5ac99a4": {
+                        "#hash_8e9ef05d6e84968c": "isAllyTeam",
+                        "#hash_5ee809f61d319039": "BoolProperty"
+                    },
+                    "#hash_81e8e81612bae9bf": "Types_BoolProperty"
+                },
+                {
+                    "#hash_cf0d4d8cc5ac99a4": {
+                        "#hash_8e9ef05d6e84968c": "isEnemyTeam",
+                        "#hash_5ee809f61d319039": "BoolProperty"
+                    },
+                    "#hash_81e8e81612bae9bf": "Types_BoolProperty"
+                },
+                {
+                    "#hash_cf0d4d8cc5ac99a4": {
+                        "#hash_8e9ef05d6e84968c": "showCompletedMessage",
+                        "#hash_5ca6b54e589421e": 1,
+                        "#hash_5ee809f61d319039": "BoolProperty"
+                    },
+                    "#hash_81e8e81612bae9bf": "Types_BoolProperty"
+                },
+                {
+                    "#hash_cf0d4d8cc5ac99a4": {
+                        "#hash_8e9ef05d6e84968c": "iconBackingSuccess",
+                        "#hash_5ca6b54e589421e": "icon_waypoint_backing_friendly",
+                        "#hash_5ee809f61d319039": "ImageProperty"
+                    },
+                    "#hash_81e8e81612bae9bf": "Types_ImageProperty"
+                },
+                {
+                    "#hash_cf0d4d8cc5ac99a4": {
+                        "#hash_8e9ef05d6e84968c": "iconBackingFailure",
+                        "#hash_5ca6b54e589421e": "icon_waypoint_backing_enemy",
+                        "#hash_5ee809f61d319039": "ImageProperty"
+                    },
+                    "#hash_81e8e81612bae9bf": "Types_ImageProperty"
+                },
+                {
+                    "#hash_cf0d4d8cc5ac99a4": {
+                        "#hash_8e9ef05d6e84968c": "successTintSwatchPath",
+                        "#hash_5ca6b54e589421e": "MatchIndicators.AllyDark",
+                        "#hash_5ee809f61d319039": "RawStringProperty"
+                    },
+                    "#hash_81e8e81612bae9bf": "Types_RawStringProperty"
+                },
+                {
+                    "#hash_cf0d4d8cc5ac99a4": {
+                        "#hash_8e9ef05d6e84968c": "failureTintSwatchPath",
+                        "#hash_5ca6b54e589421e": "MatchIndicators.EnemyDark",
+                        "#hash_5ee809f61d319039": "RawStringProperty"
+                    },
+                    "#hash_81e8e81612bae9bf": "Types_RawStringProperty"
+                }
+            ],
+            "#hash_332e305ca1ca24ca": "WAR_TANK_ESCORT_DEFENDERS"
+        },
+        {
+            "#hash_8cab666c8e014658": [
+                {
+                    "#hash_cf0d4d8cc5ac99a4": {
+                        "#hash_8e9ef05d6e84968c": "title",
+                        "#hash_5ca6b54e589421e": "&JUP_MP/WM_OBJ_AI_BOSS_ATTACKERS_TITLE",
+                        "#hash_5ee809f61d319039": "StringProperty"
+                    },
+                    "#hash_81e8e81612bae9bf": "Types_StringProperty"
+                },
+                {
+                    "#hash_cf0d4d8cc5ac99a4": {
+                        "#hash_8e9ef05d6e84968c": "description",
+                        "#hash_5ca6b54e589421e": "&JUP_MP/WM_OBJ_AI_BOSS_ATTACKERS_DESC",
+                        "#hash_5ee809f61d319039": "StringProperty"
+                    },
+                    "#hash_81e8e81612bae9bf": "Types_StringProperty"
+                },
+                {
+                    "#hash_cf0d4d8cc5ac99a4": {
+                        "#hash_8e9ef05d6e84968c": "animSequence",
+                        "#hash_5ee809f61d319039": "RawStringProperty"
+                    },
+                    "#hash_81e8e81612bae9bf": "Types_RawStringProperty"
+                },
+                {
+                    "#hash_cf0d4d8cc5ac99a4": {
+                        "#hash_8e9ef05d6e84968c": "icon",
+                        "#hash_5ca6b54e589421e": "ui_map_icon_boss_juggernaut",
+                        "#hash_5ee809f61d319039": "ImageProperty"
+                    },
+                    "#hash_81e8e81612bae9bf": "Types_ImageProperty"
+                },
+                {
+                    "#hash_cf0d4d8cc5ac99a4": {
+                        "#hash_8e9ef05d6e84968c": "iconBacking",
+                        "#hash_5ca6b54e589421e": "icon_waypoint_backing_enemy",
+                        "#hash_5ee809f61d319039": "ImageProperty"
+                    },
+                    "#hash_81e8e81612bae9bf": "Types_ImageProperty"
+                },
+                {
+                    "#hash_cf0d4d8cc5ac99a4": {
+                        "#hash_8e9ef05d6e84968c": "timeLimitedDisplay",
+                        "#hash_5ee809f61d319039": "BoolProperty"
+                    },
+                    "#hash_81e8e81612bae9bf": "Types_BoolProperty"
+                },
+                {
+                    "#hash_cf0d4d8cc5ac99a4": {
+                        "#hash_8e9ef05d6e84968c": "secondsOnScreen",
+                        "#hash_5ee809f61d319039": "IntProperty"
+                    },
+                    "#hash_81e8e81612bae9bf": "Types_IntProperty"
+                },
+                {
+                    "#hash_cf0d4d8cc5ac99a4": {
+                        "#hash_8e9ef05d6e84968c": "iconTintSwatchPath",
+                        "#hash_5ee809f61d319039": "RawStringProperty"
+                    },
+                    "#hash_81e8e81612bae9bf": "Types_RawStringProperty"
+                },
+                {
+                    "#hash_cf0d4d8cc5ac99a4": {
+                        "#hash_8e9ef05d6e84968c": "backingTintSwatchPath",
+                        "#hash_5ca6b54e589421e": "MatchIndicators.EnemyDefault",
+                        "#hash_5ee809f61d319039": "RawStringProperty"
+                    },
+                    "#hash_81e8e81612bae9bf": "Types_RawStringProperty"
+                },
+                {
+                    "#hash_cf0d4d8cc5ac99a4": {
+                        "#hash_8e9ef05d6e84968c": "hasCounter",
+                        "#hash_5ee809f61d319039": "BoolProperty"
+                    },
+                    "#hash_81e8e81612bae9bf": "Types_BoolProperty"
+                },
+                {
+                    "#hash_cf0d4d8cc5ac99a4": {
+                        "#hash_8e9ef05d6e84968c": "hasProgressBar",
+                        "#hash_5ee809f61d319039": "BoolProperty"
+                    },
+                    "#hash_81e8e81612bae9bf": "Types_BoolProperty"
+                },
+                {
+                    "#hash_cf0d4d8cc5ac99a4": {
+                        "#hash_8e9ef05d6e84968c": "hasTimer",
+                        "#hash_5ca6b54e589421e": 1,
+                        "#hash_5ee809f61d319039": "BoolProperty"
+                    },
+                    "#hash_81e8e81612bae9bf": "Types_BoolProperty"
+                },
+                {
+                    "#hash_cf0d4d8cc5ac99a4": {
+                        "#hash_8e9ef05d6e84968c": "isAllyTeam",
+                        "#hash_5ee809f61d319039": "BoolProperty"
+                    },
+                    "#hash_81e8e81612bae9bf": "Types_BoolProperty"
+                },
+                {
+                    "#hash_cf0d4d8cc5ac99a4": {
+                        "#hash_8e9ef05d6e84968c": "isEnemyTeam",
+                        "#hash_5ee809f61d319039": "BoolProperty"
+                    },
+                    "#hash_81e8e81612bae9bf": "Types_BoolProperty"
+                },
+                {
+                    "#hash_cf0d4d8cc5ac99a4": {
+                        "#hash_8e9ef05d6e84968c": "showCompletedMessage",
+                        "#hash_5ca6b54e589421e": 1,
+                        "#hash_5ee809f61d319039": "BoolProperty"
+                    },
+                    "#hash_81e8e81612bae9bf": "Types_BoolProperty"
+                },
+                {
+                    "#hash_cf0d4d8cc5ac99a4": {
+                        "#hash_8e9ef05d6e84968c": "iconBackingSuccess",
+                        "#hash_5ca6b54e589421e": "icon_waypoint_backing_friendly",
+                        "#hash_5ee809f61d319039": "ImageProperty"
+                    },
+                    "#hash_81e8e81612bae9bf": "Types_ImageProperty"
+                },
+                {
+                    "#hash_cf0d4d8cc5ac99a4": {
+                        "#hash_8e9ef05d6e84968c": "iconBackingFailure",
+                        "#hash_5ca6b54e589421e": "icon_waypoint_backing_enemy",
+                        "#hash_5ee809f61d319039": "ImageProperty"
+                    },
+                    "#hash_81e8e81612bae9bf": "Types_ImageProperty"
+                },
+                {
+                    "#hash_cf0d4d8cc5ac99a4": {
+                        "#hash_8e9ef05d6e84968c": "successTintSwatchPath",
+                        "#hash_5ca6b54e589421e": "MatchIndicators.AllyDark",
+                        "#hash_5ee809f61d319039": "RawStringProperty"
+                    },
+                    "#hash_81e8e81612bae9bf": "Types_RawStringProperty"
+                },
+                {
+                    "#hash_cf0d4d8cc5ac99a4": {
+                        "#hash_8e9ef05d6e84968c": "failureTintSwatchPath",
+                        "#hash_5ca6b54e589421e": "MatchIndicators.EnemyDark",
+                        "#hash_5ee809f61d319039": "RawStringProperty"
+                    },
+                    "#hash_81e8e81612bae9bf": "Types_RawStringProperty"
+                }
+            ],
+            "#hash_332e305ca1ca24ca": "WAR_AI_BOSS_ATTACKERS"
+        },
+        {
+            "#hash_8cab666c8e014658": [
+                {
+                    "#hash_cf0d4d8cc5ac99a4": {
+                        "#hash_8e9ef05d6e84968c": "title",
+                        "#hash_5ca6b54e589421e": "&JUP_MP/WM_OBJ_AI_BOSS_DEFENDERS_TITLE",
+                        "#hash_5ee809f61d319039": "StringProperty"
+                    },
+                    "#hash_81e8e81612bae9bf": "Types_StringProperty"
+                },
+                {
+                    "#hash_cf0d4d8cc5ac99a4": {
+                        "#hash_8e9ef05d6e84968c": "description",
+                        "#hash_5ca6b54e589421e": "&JUP_MP/WM_OBJ_AI_BOSS_DEFENDERS_DESC",
+                        "#hash_5ee809f61d319039": "StringProperty"
+                    },
+                    "#hash_81e8e81612bae9bf": "Types_StringProperty"
+                },
+                {
+                    "#hash_cf0d4d8cc5ac99a4": {
+                        "#hash_8e9ef05d6e84968c": "animSequence",
+                        "#hash_5ee809f61d319039": "RawStringProperty"
+                    },
+                    "#hash_81e8e81612bae9bf": "Types_RawStringProperty"
+                },
+                {
+                    "#hash_cf0d4d8cc5ac99a4": {
+                        "#hash_8e9ef05d6e84968c": "icon",
+                        "#hash_5ca6b54e589421e": "ui_map_icon_boss_juggernaut",
+                        "#hash_5ee809f61d319039": "ImageProperty"
+                    },
+                    "#hash_81e8e81612bae9bf": "Types_ImageProperty"
+                },
+                {
+                    "#hash_cf0d4d8cc5ac99a4": {
+                        "#hash_8e9ef05d6e84968c": "iconBacking",
+                        "#hash_5ca6b54e589421e": "icon_waypoint_backing_friendly",
+                        "#hash_5ee809f61d319039": "ImageProperty"
+                    },
+                    "#hash_81e8e81612bae9bf": "Types_ImageProperty"
+                },
+                {
+                    "#hash_cf0d4d8cc5ac99a4": {
+                        "#hash_8e9ef05d6e84968c": "timeLimitedDisplay",
+                        "#hash_5ee809f61d319039": "BoolProperty"
+                    },
+                    "#hash_81e8e81612bae9bf": "Types_BoolProperty"
+                },
+                {
+                    "#hash_cf0d4d8cc5ac99a4": {
+                        "#hash_8e9ef05d6e84968c": "secondsOnScreen",
+                        "#hash_5ee809f61d319039": "IntProperty"
+                    },
+                    "#hash_81e8e81612bae9bf": "Types_IntProperty"
+                },
+                {
+                    "#hash_cf0d4d8cc5ac99a4": {
+                        "#hash_8e9ef05d6e84968c": "iconTintSwatchPath",
+                        "#hash_5ee809f61d319039": "RawStringProperty"
+                    },
+                    "#hash_81e8e81612bae9bf": "Types_RawStringProperty"
+                },
+                {
+                    "#hash_cf0d4d8cc5ac99a4": {
+                        "#hash_8e9ef05d6e84968c": "backingTintSwatchPath",
+                        "#hash_5ca6b54e589421e": "MatchIndicators.AllyDefault",
+                        "#hash_5ee809f61d319039": "RawStringProperty"
+                    },
+                    "#hash_81e8e81612bae9bf": "Types_RawStringProperty"
+                },
+                {
+                    "#hash_cf0d4d8cc5ac99a4": {
+                        "#hash_8e9ef05d6e84968c": "hasCounter",
+                        "#hash_5ee809f61d319039": "BoolProperty"
+                    },
+                    "#hash_81e8e81612bae9bf": "Types_BoolProperty"
+                },
+                {
+                    "#hash_cf0d4d8cc5ac99a4": {
+                        "#hash_8e9ef05d6e84968c": "hasProgressBar",
+                        "#hash_5ee809f61d319039": "BoolProperty"
+                    },
+                    "#hash_81e8e81612bae9bf": "Types_BoolProperty"
+                },
+                {
+                    "#hash_cf0d4d8cc5ac99a4": {
+                        "#hash_8e9ef05d6e84968c": "hasTimer",
+                        "#hash_5ca6b54e589421e": 1,
+                        "#hash_5ee809f61d319039": "BoolProperty"
+                    },
+                    "#hash_81e8e81612bae9bf": "Types_BoolProperty"
+                },
+                {
+                    "#hash_cf0d4d8cc5ac99a4": {
+                        "#hash_8e9ef05d6e84968c": "isAllyTeam",
+                        "#hash_5ee809f61d319039": "BoolProperty"
+                    },
+                    "#hash_81e8e81612bae9bf": "Types_BoolProperty"
+                },
+                {
+                    "#hash_cf0d4d8cc5ac99a4": {
+                        "#hash_8e9ef05d6e84968c": "isEnemyTeam",
+                        "#hash_5ee809f61d319039": "BoolProperty"
+                    },
+                    "#hash_81e8e81612bae9bf": "Types_BoolProperty"
+                },
+                {
+                    "#hash_cf0d4d8cc5ac99a4": {
+                        "#hash_8e9ef05d6e84968c": "showCompletedMessage",
+                        "#hash_5ca6b54e589421e": 1,
+                        "#hash_5ee809f61d319039": "BoolProperty"
+                    },
+                    "#hash_81e8e81612bae9bf": "Types_BoolProperty"
+                },
+                {
+                    "#hash_cf0d4d8cc5ac99a4": {
+                        "#hash_8e9ef05d6e84968c": "iconBackingSuccess",
+                        "#hash_5ca6b54e589421e": "icon_waypoint_backing_friendly",
+                        "#hash_5ee809f61d319039": "ImageProperty"
+                    },
+                    "#hash_81e8e81612bae9bf": "Types_ImageProperty"
+                },
+                {
+                    "#hash_cf0d4d8cc5ac99a4": {
+                        "#hash_8e9ef05d6e84968c": "iconBackingFailure",
+                        "#hash_5ca6b54e589421e": "icon_waypoint_backing_enemy",
+                        "#hash_5ee809f61d319039": "ImageProperty"
+                    },
+                    "#hash_81e8e81612bae9bf": "Types_ImageProperty"
+                },
+                {
+                    "#hash_cf0d4d8cc5ac99a4": {
+                        "#hash_8e9ef05d6e84968c": "successTintSwatchPath",
+                        "#hash_5ca6b54e589421e": "MatchIndicators.AllyDark",
+                        "#hash_5ee809f61d319039": "RawStringProperty"
+                    },
+                    "#hash_81e8e81612bae9bf": "Types_RawStringProperty"
+                },
+                {
+                    "#hash_cf0d4d8cc5ac99a4": {
+                        "#hash_8e9ef05d6e84968c": "failureTintSwatchPath",
+                        "#hash_5ca6b54e589421e": "MatchIndicators.EnemyDark",
+                        "#hash_5ee809f61d319039": "RawStringProperty"
+                    },
+                    "#hash_81e8e81612bae9bf": "Types_RawStringProperty"
+                }
+            ],
+            "#hash_332e305ca1ca24ca": "WAR_AI_BOSS_DEFENDERS"
+        },
+        {
+            "#hash_8cab666c8e014658": [
+                {
+                    "#hash_cf0d4d8cc5ac99a4": {
+                        "#hash_8e9ef05d6e84968c": "title",
+                        "#hash_5ca6b54e589421e": "&JUP_MP/WM_OBJ_AI_BOSS_ZONE_ATTACKERS_TITLE",
+                        "#hash_5ee809f61d319039": "StringProperty"
+                    },
+                    "#hash_81e8e81612bae9bf": "Types_StringProperty"
+                },
+                {
+                    "#hash_cf0d4d8cc5ac99a4": {
+                        "#hash_8e9ef05d6e84968c": "description",
+                        "#hash_5ca6b54e589421e": "&JUP_MP/WM_OBJ_AI_BOSS_ZONE_ATTACKERS_DESC",
+                        "#hash_5ee809f61d319039": "StringProperty"
+                    },
+                    "#hash_81e8e81612bae9bf": "Types_StringProperty"
+                },
+                {
+                    "#hash_cf0d4d8cc5ac99a4": {
+                        "#hash_8e9ef05d6e84968c": "animSequence",
+                        "#hash_5ee809f61d319039": "RawStringProperty"
+                    },
+                    "#hash_81e8e81612bae9bf": "Types_RawStringProperty"
+                },
+                {
+                    "#hash_cf0d4d8cc5ac99a4": {
+                        "#hash_8e9ef05d6e84968c": "icon",
+                        "#hash_5ca6b54e589421e": "icon_waypoint_hq_enemy",
+                        "#hash_5ee809f61d319039": "ImageProperty"
+                    },
+                    "#hash_81e8e81612bae9bf": "Types_ImageProperty"
+                },
+                {
+                    "#hash_cf0d4d8cc5ac99a4": {
+                        "#hash_8e9ef05d6e84968c": "iconBacking",
+                        "#hash_5ca6b54e589421e": "icon_waypoint_backing_enemy",
+                        "#hash_5ee809f61d319039": "ImageProperty"
+                    },
+                    "#hash_81e8e81612bae9bf": "Types_ImageProperty"
+                },
+                {
+                    "#hash_cf0d4d8cc5ac99a4": {
+                        "#hash_8e9ef05d6e84968c": "timeLimitedDisplay",
+                        "#hash_5ee809f61d319039": "BoolProperty"
+                    },
+                    "#hash_81e8e81612bae9bf": "Types_BoolProperty"
+                },
+                {
+                    "#hash_cf0d4d8cc5ac99a4": {
+                        "#hash_8e9ef05d6e84968c": "secondsOnScreen",
+                        "#hash_5ee809f61d319039": "IntProperty"
+                    },
+                    "#hash_81e8e81612bae9bf": "Types_IntProperty"
+                },
+                {
+                    "#hash_cf0d4d8cc5ac99a4": {
+                        "#hash_8e9ef05d6e84968c": "iconTintSwatchPath",
+                        "#hash_5ee809f61d319039": "RawStringProperty"
+                    },
+                    "#hash_81e8e81612bae9bf": "Types_RawStringProperty"
+                },
+                {
+                    "#hash_cf0d4d8cc5ac99a4": {
+                        "#hash_8e9ef05d6e84968c": "backingTintSwatchPath",
+                        "#hash_5ca6b54e589421e": "MatchIndicators.EnemyDefault",
+                        "#hash_5ee809f61d319039": "RawStringProperty"
+                    },
+                    "#hash_81e8e81612bae9bf": "Types_RawStringProperty"
+                },
+                {
+                    "#hash_cf0d4d8cc5ac99a4": {
+                        "#hash_8e9ef05d6e84968c": "hasCounter",
+                        "#hash_5ee809f61d319039": "BoolProperty"
+                    },
+                    "#hash_81e8e81612bae9bf": "Types_BoolProperty"
+                },
+                {
+                    "#hash_cf0d4d8cc5ac99a4": {
+                        "#hash_8e9ef05d6e84968c": "hasProgressBar",
+                        "#hash_5ee809f61d319039": "BoolProperty"
+                    },
+                    "#hash_81e8e81612bae9bf": "Types_BoolProperty"
+                },
+                {
+                    "#hash_cf0d4d8cc5ac99a4": {
+                        "#hash_8e9ef05d6e84968c": "hasTimer",
+                        "#hash_5ca6b54e589421e": 1,
+                        "#hash_5ee809f61d319039": "BoolProperty"
+                    },
+                    "#hash_81e8e81612bae9bf": "Types_BoolProperty"
+                },
+                {
+                    "#hash_cf0d4d8cc5ac99a4": {
+                        "#hash_8e9ef05d6e84968c": "isAllyTeam",
+                        "#hash_5ee809f61d319039": "BoolProperty"
+                    },
+                    "#hash_81e8e81612bae9bf": "Types_BoolProperty"
+                },
+                {
+                    "#hash_cf0d4d8cc5ac99a4": {
+                        "#hash_8e9ef05d6e84968c": "isEnemyTeam",
+                        "#hash_5ee809f61d319039": "BoolProperty"
+                    },
+                    "#hash_81e8e81612bae9bf": "Types_BoolProperty"
+                },
+                {
+                    "#hash_cf0d4d8cc5ac99a4": {
+                        "#hash_8e9ef05d6e84968c": "showCompletedMessage",
+                        "#hash_5ca6b54e589421e": 1,
+                        "#hash_5ee809f61d319039": "BoolProperty"
+                    },
+                    "#hash_81e8e81612bae9bf": "Types_BoolProperty"
+                },
+                {
+                    "#hash_cf0d4d8cc5ac99a4": {
+                        "#hash_8e9ef05d6e84968c": "iconBackingSuccess",
+                        "#hash_5ca6b54e589421e": "icon_waypoint_backing_friendly",
+                        "#hash_5ee809f61d319039": "ImageProperty"
+                    },
+                    "#hash_81e8e81612bae9bf": "Types_ImageProperty"
+                },
+                {
+                    "#hash_cf0d4d8cc5ac99a4": {
+                        "#hash_8e9ef05d6e84968c": "iconBackingFailure",
+                        "#hash_5ca6b54e589421e": "icon_waypoint_backing_enemy",
+                        "#hash_5ee809f61d319039": "ImageProperty"
+                    },
+                    "#hash_81e8e81612bae9bf": "Types_ImageProperty"
+                },
+                {
+                    "#hash_cf0d4d8cc5ac99a4": {
+                        "#hash_8e9ef05d6e84968c": "successTintSwatchPath",
+                        "#hash_5ca6b54e589421e": "MatchIndicators.AllyDark",
+                        "#hash_5ee809f61d319039": "RawStringProperty"
+                    },
+                    "#hash_81e8e81612bae9bf": "Types_RawStringProperty"
+                },
+                {
+                    "#hash_cf0d4d8cc5ac99a4": {
+                        "#hash_8e9ef05d6e84968c": "failureTintSwatchPath",
+                        "#hash_5ca6b54e589421e": "MatchIndicators.EnemyDark",
+                        "#hash_5ee809f61d319039": "RawStringProperty"
+                    },
+                    "#hash_81e8e81612bae9bf": "Types_RawStringProperty"
+                }
+            ],
+            "#hash_332e305ca1ca24ca": "WAR_AI_BOSS_ZONE_ATTACKERS"
+        },
+        {
+            "#hash_8cab666c8e014658": [
+                {
+                    "#hash_cf0d4d8cc5ac99a4": {
+                        "#hash_8e9ef05d6e84968c": "title",
+                        "#hash_5ca6b54e589421e": "&JUP_MP/WM_OBJ_AI_BOSS_ZONE_DEFENDERS_TITLE",
+                        "#hash_5ee809f61d319039": "StringProperty"
+                    },
+                    "#hash_81e8e81612bae9bf": "Types_StringProperty"
+                },
+                {
+                    "#hash_cf0d4d8cc5ac99a4": {
+                        "#hash_8e9ef05d6e84968c": "description",
+                        "#hash_5ca6b54e589421e": "&JUP_MP/WM_OBJ_AI_BOSS_ZONE_DEFENDERS_DESC",
+                        "#hash_5ee809f61d319039": "StringProperty"
+                    },
+                    "#hash_81e8e81612bae9bf": "Types_StringProperty"
+                },
+                {
+                    "#hash_cf0d4d8cc5ac99a4": {
+                        "#hash_8e9ef05d6e84968c": "animSequence",
+                        "#hash_5ee809f61d319039": "RawStringProperty"
+                    },
+                    "#hash_81e8e81612bae9bf": "Types_RawStringProperty"
+                },
+                {
+                    "#hash_cf0d4d8cc5ac99a4": {
+                        "#hash_8e9ef05d6e84968c": "icon",
+                        "#hash_5ca6b54e589421e": "icon_waypoint_hq_friendly",
+                        "#hash_5ee809f61d319039": "ImageProperty"
+                    },
+                    "#hash_81e8e81612bae9bf": "Types_ImageProperty"
+                },
+                {
+                    "#hash_cf0d4d8cc5ac99a4": {
+                        "#hash_8e9ef05d6e84968c": "iconBacking",
+                        "#hash_5ca6b54e589421e": "icon_waypoint_backing_friendly",
+                        "#hash_5ee809f61d319039": "ImageProperty"
+                    },
+                    "#hash_81e8e81612bae9bf": "Types_ImageProperty"
+                },
+                {
+                    "#hash_cf0d4d8cc5ac99a4": {
+                        "#hash_8e9ef05d6e84968c": "timeLimitedDisplay",
+                        "#hash_5ee809f61d319039": "BoolProperty"
+                    },
+                    "#hash_81e8e81612bae9bf": "Types_BoolProperty"
+                },
+                {
+                    "#hash_cf0d4d8cc5ac99a4": {
+                        "#hash_8e9ef05d6e84968c": "secondsOnScreen",
+                        "#hash_5ee809f61d319039": "IntProperty"
+                    },
+                    "#hash_81e8e81612bae9bf": "Types_IntProperty"
+                },
+                {
+                    "#hash_cf0d4d8cc5ac99a4": {
+                        "#hash_8e9ef05d6e84968c": "iconTintSwatchPath",
+                        "#hash_5ee809f61d319039": "RawStringProperty"
+                    },
+                    "#hash_81e8e81612bae9bf": "Types_RawStringProperty"
+                },
+                {
+                    "#hash_cf0d4d8cc5ac99a4": {
+                        "#hash_8e9ef05d6e84968c": "backingTintSwatchPath",
+                        "#hash_5ca6b54e589421e": "MatchIndicators.AllyDefault",
+                        "#hash_5ee809f61d319039": "RawStringProperty"
+                    },
+                    "#hash_81e8e81612bae9bf": "Types_RawStringProperty"
+                },
+                {
+                    "#hash_cf0d4d8cc5ac99a4": {
+                        "#hash_8e9ef05d6e84968c": "hasCounter",
+                        "#hash_5ee809f61d319039": "BoolProperty"
+                    },
+                    "#hash_81e8e81612bae9bf": "Types_BoolProperty"
+                },
+                {
+                    "#hash_cf0d4d8cc5ac99a4": {
+                        "#hash_8e9ef05d6e84968c": "hasProgressBar",
+                        "#hash_5ee809f61d319039": "BoolProperty"
+                    },
+                    "#hash_81e8e81612bae9bf": "Types_BoolProperty"
+                },
+                {
+                    "#hash_cf0d4d8cc5ac99a4": {
+                        "#hash_8e9ef05d6e84968c": "hasTimer",
+                        "#hash_5ca6b54e589421e": 1,
+                        "#hash_5ee809f61d319039": "BoolProperty"
+                    },
+                    "#hash_81e8e81612bae9bf": "Types_BoolProperty"
+                },
+                {
+                    "#hash_cf0d4d8cc5ac99a4": {
+                        "#hash_8e9ef05d6e84968c": "isAllyTeam",
+                        "#hash_5ee809f61d319039": "BoolProperty"
+                    },
+                    "#hash_81e8e81612bae9bf": "Types_BoolProperty"
+                },
+                {
+                    "#hash_cf0d4d8cc5ac99a4": {
+                        "#hash_8e9ef05d6e84968c": "isEnemyTeam",
+                        "#hash_5ee809f61d319039": "BoolProperty"
+                    },
+                    "#hash_81e8e81612bae9bf": "Types_BoolProperty"
+                },
+                {
+                    "#hash_cf0d4d8cc5ac99a4": {
+                        "#hash_8e9ef05d6e84968c": "showCompletedMessage",
+                        "#hash_5ca6b54e589421e": 1,
+                        "#hash_5ee809f61d319039": "BoolProperty"
+                    },
+                    "#hash_81e8e81612bae9bf": "Types_BoolProperty"
+                },
+                {
+                    "#hash_cf0d4d8cc5ac99a4": {
+                        "#hash_8e9ef05d6e84968c": "iconBackingSuccess",
+                        "#hash_5ca6b54e589421e": "icon_waypoint_backing_friendly",
+                        "#hash_5ee809f61d319039": "ImageProperty"
+                    },
+                    "#hash_81e8e81612bae9bf": "Types_ImageProperty"
+                },
+                {
+                    "#hash_cf0d4d8cc5ac99a4": {
+                        "#hash_8e9ef05d6e84968c": "iconBackingFailure",
+                        "#hash_5ca6b54e589421e": "icon_waypoint_backing_enemy",
+                        "#hash_5ee809f61d319039": "ImageProperty"
+                    },
+                    "#hash_81e8e81612bae9bf": "Types_ImageProperty"
+                },
+                {
+                    "#hash_cf0d4d8cc5ac99a4": {
+                        "#hash_8e9ef05d6e84968c": "successTintSwatchPath",
+                        "#hash_5ca6b54e589421e": "MatchIndicators.AllyDark",
+                        "#hash_5ee809f61d319039": "RawStringProperty"
+                    },
+                    "#hash_81e8e81612bae9bf": "Types_RawStringProperty"
+                },
+                {
+                    "#hash_cf0d4d8cc5ac99a4": {
+                        "#hash_8e9ef05d6e84968c": "failureTintSwatchPath",
+                        "#hash_5ca6b54e589421e": "MatchIndicators.EnemyDark",
+                        "#hash_5ee809f61d319039": "RawStringProperty"
+                    },
+                    "#hash_81e8e81612bae9bf": "Types_RawStringProperty"
+                }
+            ],
+            "#hash_332e305ca1ca24ca": "WAR_AI_BOSS_ZONE_DEFENDERS"
+        }
+    ],
+    "#hash_679a5fd22385af82": [
+        {
+            "#hash_cf0d4d8cc5ac99a4": {
+                "#hash_8e9ef05d6e84968c": "title",
+                "#hash_5ee809f61d319039": "StringProperty"
+            },
+            "#hash_81e8e81612bae9bf": "Types_StringProperty"
+        },
+        {
+            "#hash_cf0d4d8cc5ac99a4": {
+                "#hash_8e9ef05d6e84968c": "description",
+                "#hash_5ee809f61d319039": "StringProperty"
+            },
+            "#hash_81e8e81612bae9bf": "Types_StringProperty"
+        },
+        {
+            "#hash_cf0d4d8cc5ac99a4": {
+                "#hash_8e9ef05d6e84968c": "animSequence",
+                "#hash_5ee809f61d319039": "RawStringProperty"
+            },
+            "#hash_81e8e81612bae9bf": "Types_RawStringProperty"
+        },
+        {
+            "#hash_cf0d4d8cc5ac99a4": {
+                "#hash_8e9ef05d6e84968c": "icon",
+                "#hash_5ee809f61d319039": "ImageProperty"
+            },
+            "#hash_81e8e81612bae9bf": "Types_ImageProperty"
+        },
+        {
+            "#hash_cf0d4d8cc5ac99a4": {
+                "#hash_8e9ef05d6e84968c": "iconBacking",
+                "#hash_5ee809f61d319039": "ImageProperty"
+            },
+            "#hash_81e8e81612bae9bf": "Types_ImageProperty"
+        },
+        {
+            "#hash_cf0d4d8cc5ac99a4": {
+                "#hash_8e9ef05d6e84968c": "timeLimitedDisplay",
+                "#hash_5ee809f61d319039": "BoolProperty"
+            },
+            "#hash_81e8e81612bae9bf": "Types_BoolProperty"
+        },
+        {
+            "#hash_cf0d4d8cc5ac99a4": {
+                "#hash_8e9ef05d6e84968c": "secondsOnScreen",
+                "#hash_5ee809f61d319039": "IntProperty"
+            },
+            "#hash_81e8e81612bae9bf": "Types_IntProperty"
+        },
+        {
+            "#hash_cf0d4d8cc5ac99a4": {
+                "#hash_8e9ef05d6e84968c": "iconTintSwatchPath",
+                "#hash_5ee809f61d319039": "RawStringProperty"
+            },
+            "#hash_81e8e81612bae9bf": "Types_RawStringProperty"
+        },
+        {
+            "#hash_cf0d4d8cc5ac99a4": {
+                "#hash_8e9ef05d6e84968c": "backingTintSwatchPath",
+                "#hash_5ee809f61d319039": "RawStringProperty"
+            },
+            "#hash_81e8e81612bae9bf": "Types_RawStringProperty"
+        },
+        {
+            "#hash_cf0d4d8cc5ac99a4": {
+                "#hash_8e9ef05d6e84968c": "hasCounter",
+                "#hash_5ee809f61d319039": "BoolProperty"
+            },
+            "#hash_81e8e81612bae9bf": "Types_BoolProperty"
+        },
+        {
+            "#hash_cf0d4d8cc5ac99a4": {
+                "#hash_8e9ef05d6e84968c": "hasProgressBar",
+                "#hash_5ee809f61d319039": "BoolProperty"
+            },
+            "#hash_81e8e81612bae9bf": "Types_BoolProperty"
+        },
+        {
+            "#hash_cf0d4d8cc5ac99a4": {
+                "#hash_8e9ef05d6e84968c": "hasTimer",
+                "#hash_5ee809f61d319039": "BoolProperty"
+            },
+            "#hash_81e8e81612bae9bf": "Types_BoolProperty"
+        },
+        {
+            "#hash_cf0d4d8cc5ac99a4": {
+                "#hash_8e9ef05d6e84968c": "isAllyTeam",
+                "#hash_5ee809f61d319039": "BoolProperty"
+            },
+            "#hash_81e8e81612bae9bf": "Types_BoolProperty"
+        },
+        {
+            "#hash_cf0d4d8cc5ac99a4": {
+                "#hash_8e9ef05d6e84968c": "isEnemyTeam",
+                "#hash_5ee809f61d319039": "BoolProperty"
+            },
+            "#hash_81e8e81612bae9bf": "Types_BoolProperty"
+        },
+        {
+            "#hash_cf0d4d8cc5ac99a4": {
+                "#hash_8e9ef05d6e84968c": "iconBackingSuccess",
+                "#hash_5ee809f61d319039": "ImageProperty"
+            },
+            "#hash_81e8e81612bae9bf": "Types_ImagePropertyTemplate"
+        },
+        {
+            "#hash_cf0d4d8cc5ac99a4": {
+                "#hash_8e9ef05d6e84968c": "iconBackingFailure",
+                "#hash_5ee809f61d319039": "ImageProperty"
+            },
+            "#hash_81e8e81612bae9bf": "Types_ImagePropertyTemplate"
+        },
+        {
+            "#hash_cf0d4d8cc5ac99a4": {
+                "#hash_8e9ef05d6e84968c": "successTintSwatchPath",
+                "#hash_5ee809f61d319039": "RawStringProperty"
+            },
+            "#hash_81e8e81612bae9bf": "Types_RawStringPropertyTemplate"
+        },
+        {
+            "#hash_cf0d4d8cc5ac99a4": {
+                "#hash_8e9ef05d6e84968c": "failureTintSwatchPath",
+                "#hash_5ee809f61d319039": "RawStringProperty"
+            },
+            "#hash_81e8e81612bae9bf": "Types_RawStringPropertyTemplate"
+        }
+    ],
+    "#hash_466136481548ad3e": [
+        {
+            "#hash_a2d839f66f89ffbe": [
+            ],
+            "#hash_332e305ca1ca24ca": "OBJECTIVE_PROGRESS",
+            "#hash_e0b6a28c2a16b5db": [
+                {
+                    "#hash_35a2e7857c49b6fb": [
+                        {
+                            "#hash_cf0d4d8cc5ac99a4": {
+                                "#hash_47ef1080427d4d3a": 10,
+                                "#hash_3c141df65714d228": -1,
+                                "#hash_5f263b0cb7afb8a6": 1,
+                                "#hash_5ee809f61d319039": "IntOmnvar",
+                                "#hash_332e305ca1ca24ca": "obj_tracker_counter_set"
+                            },
+                            "#hash_81e8e81612bae9bf": "Types_IntOmnvar"
+                        },
+                        {
+                            "#hash_cf0d4d8cc5ac99a4": {
+                                "#hash_47ef1080427d4d3a": 10,
+                                "#hash_3c141df65714d228": -1,
+                                "#hash_5f263b0cb7afb8a6": 1,
+                                "#hash_5ee809f61d319039": "IntOmnvar",
+                                "#hash_332e305ca1ca24ca": "obj_tracker_counter_update"
+                            },
+                            "#hash_81e8e81612bae9bf": "Types_IntOmnvar"
+                        }
+                    ],
+                    "#hash_332e305ca1ca24ca": "COUNTER",
+                    "#hash_ec9e8dcdee98dce5": 1
+                },
+                {
+                    "#hash_35a2e7857c49b6fb": [
+                        {
+                            "#hash_cf0d4d8cc5ac99a4": {
+                                "#hash_47ef1080427d4d3a": 1,
+                                "#hash_5f263b0cb7afb8a6": 1,
+                                "#hash_5ee809f61d319039": "FloatOmnvar",
+                                "#hash_332e305ca1ca24ca": "obj_tracker_progress_bar_update"
+                            },
+                            "#hash_81e8e81612bae9bf": "Types_FloatOmnvar"
+                        },
+                        {
+                            "#hash_cf0d4d8cc5ac99a4": {
+                                "#hash_5f263b0cb7afb8a6": 1,
+                                "#hash_5ca6b54e589421e": 1,
+                                "#hash_5ee809f61d319039": "BoolOmnvar",
+                                "#hash_332e305ca1ca24ca": "obj_tracker_progress_bar_show"
+                            },
+                            "#hash_81e8e81612bae9bf": "Types_BoolOmnvar"
+                        },
+                        {
+                            "#hash_cf0d4d8cc5ac99a4": {
+                                "#hash_47ef1080427d4d3a": 3,
+                                "#hash_5f263b0cb7afb8a6": 1,
+                                "#hash_5ee809f61d319039": "IntOmnvar",
+                                "#hash_332e305ca1ca24ca": "obj_tracker_progress_bar_state"
+                            },
+                            "#hash_81e8e81612bae9bf": "Types_IntOmnvar"
+                        }
+                    ],
+                    "#hash_332e305ca1ca24ca": "PROGRESS_BAR",
+                    "#hash_ec9e8dcdee98dce5": 1
+                },
+                {
+                    "#hash_35a2e7857c49b6fb": [
+                        {
+                            "#hash_cf0d4d8cc5ac99a4": {
+                                "#hash_5f263b0cb7afb8a6": 1,
+                                "#hash_5ee809f61d319039": "TimeOmnvar",
+                                "#hash_332e305ca1ca24ca": "obj_tracker_timer_end_time"
+                            },
+                            "#hash_81e8e81612bae9bf": "Types_TimeOmnvar"
+                        },
+                        {
+                            "#hash_cf0d4d8cc5ac99a4": {
+                                "#hash_5f263b0cb7afb8a6": 1,
+                                "#hash_5ee809f61d319039": "BoolOmnvar",
+                                "#hash_332e305ca1ca24ca": "obj_tracker_timer_paused"
+                            },
+                            "#hash_81e8e81612bae9bf": "Types_BoolOmnvar"
+                        }
+                    ],
+                    "#hash_332e305ca1ca24ca": "TIMER",
+                    "#hash_ec9e8dcdee98dce5": 1
+                },
+                {
+                    "#hash_35a2e7857c49b6fb": [
+                        {
+                            "#hash_cf0d4d8cc5ac99a4": {
+                                "#hash_47ef1080427d4d3a": 5,
+                                "#hash_3c141df65714d228": -1,
+                                "#hash_5f263b0cb7afb8a6": 1,
+                                "#hash_5ca6b54e589421e": -1,
+                                "#hash_5ee809f61d319039": "IntOmnvar",
+                                "#hash_332e305ca1ca24ca": "obj_tracker_icon_update"
+                            },
+                            "#hash_81e8e81612bae9bf": "Types_IntOmnvar"
+                        }
+                    ],
+                    "#hash_332e305ca1ca24ca": "DYNAMIC_ICONS",
+                    "#hash_ec9e8dcdee98dce5": 1
+                }
+            ]
+        }
+    ],
+    "#hash_ef7dacdcddcfbf7f": 1024,
+    "#hash_a35573938e7a51c8": 1024,
+    "#hash_a531dcf586562f39": "ObjectiveTracker",
+    "#hash_c1a7e9a971c49e43": [
+        {
+            "#hash_332e305ca1ca24ca": "FADE_OUT"
+        },
+        {
+            "#hash_332e305ca1ca24ca": "FADE_IN_SUCCESSFUL"
+        },
+        {
+            "#hash_332e305ca1ca24ca": "FADE_IN_INCOMPLETE"
+        },
+        {
+            "#hash_332e305ca1ca24ca": "INCOMPLETE_TO_SUCCESSFUL"
+        },
+        {
+            "#hash_332e305ca1ca24ca": "INCOMPLETE_TO_FAILURE"
+        },
+        {
+            "#hash_332e305ca1ca24ca": "FADE_IN_FAILURE"
+        }
+    ],
+    "#hash_363bada5bd71005e": 1,
+    "#hash_d35b753eb7e96014": [
+    ]
+}
